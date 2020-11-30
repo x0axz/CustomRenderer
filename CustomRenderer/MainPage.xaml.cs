@@ -15,7 +15,7 @@ namespace CustomRenderer
 			try
 			{
 				MessagingCenter.Send<object>(this, "A");
-				Device.BeginInvokeOnMainThread(() => Navigation.PushModalAsync(new FormPage()));
+				Device.BeginInvokeOnMainThread(() => Navigation.PushModalAsync(new ButtonPage()));
 			}
             catch {}
         }

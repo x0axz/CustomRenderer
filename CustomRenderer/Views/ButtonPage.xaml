@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="CustomRenderer.Views.ButtonPage"
+	NavigationPage.HasNavigationBar="False"
+    BackgroundColor="#FFFFFF">
+
+    <ContentPage.Content>
+        <StackLayout>
+            <Button
+                    Clicked="Button_Clicked"
+                    Text="NEXT"
+                    FontSize="20"
+                    TextColor="#FFFFFF"
+                    BackgroundColor="#222222"
+                    HorizontalOptions="CenterAndExpand"
+                    VerticalOptions="CenterAndExpand"
+                    WidthRequest = "165"
+                    HeightRequest = "50"
+                    MinimumHeightRequest = "150"
+                    MinimumWidthRequest = "50"
+                    Margin="0,0,10,0">
+            </Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

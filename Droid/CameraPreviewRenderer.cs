@@ -5,9 +5,12 @@ using CustomRenderer.Droid;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.Android;
 
+#pragma warning disable CS0612 // Type or member is obsolete
 [assembly: ExportRenderer(typeof(CustomRenderer.CameraPreview), typeof(CameraPreviewRenderer))]
+#pragma warning restore CS0612 // Type or member is obsolete
 namespace CustomRenderer.Droid
 {
+    [Obsolete]
     public class CameraPreviewRenderer : ViewRenderer<CustomRenderer.CameraPreview, CustomRenderer.Droid.CameraPreview>
     {
         CameraPreview cameraPreview;

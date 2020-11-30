@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:CustomRenderer"
+    x:Class="CustomRenderer.Views.FirstCameraPage"
+    NavigationPage.HasNavigationBar="False"
+    BackgroundColor="#FFFFFF">
+
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="400" />
+                    <RowDefinition Height="50" />
+                </Grid.RowDefinitions>
+
+                <Grid Grid.Row="0">
+                </Grid>
+
+                <Grid Grid.Row="1">
+                    <local:CameraPreview 
+                        Camera="Rear" 
+                        HorizontalOptions="CenterAndExpand" 
+                        VerticalOptions="FillAndExpand" 
+                        WidthRequest="250"/>
+                </Grid>
+
+                <Grid Grid.Row="2" Margin="0,-15,0,0">
+                    <Button
+                        Clicked="IDCamera_Clicked"
+                        TextColor="#FFFFFF"
+                        Text="Snap"
+                        FontSize="18"
+                        BackgroundColor="#222222"
+                        HorizontalOptions="Center"
+                        VerticalOptions="CenterAndExpand"
+                        WidthRequest = "250"
+                        HeightRequest = "50"
+                        MinimumHeightRequest = "250"
+                        MinimumWidthRequest = "50">
+                    </Button>
+                </Grid>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

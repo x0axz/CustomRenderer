@@ -1,4 +1,5 @@
 ﻿using Xamarin.Forms;
+using CustomRenderer.Views;
 
 namespace CustomRenderer
 {
@@ -6,7 +7,7 @@ namespace CustomRenderer
 	{
 		public App ()
 		{
-			MainPage = new CustomRenderer.MainPage ();
+			MainPage = new MainPage ();
 		}
 
 		protected override void OnStart ()

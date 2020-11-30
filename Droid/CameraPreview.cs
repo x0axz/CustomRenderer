@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
 using Android.Content;
 using Android.Hardware;
 using Android.Runtime;
@@ -10,7 +9,8 @@ using Xamarin.Forms;
 
 namespace CustomRenderer.Droid
 {
-	public sealed class CameraPreview : ViewGroup, ISurfaceHolderCallback , Camera.IPictureCallback
+    [Obsolete]
+    public sealed class CameraPreview : ViewGroup, ISurfaceHolderCallback , Camera.IPictureCallback
 	{
 		SurfaceView surfaceView;
 		ISurfaceHolder holder;
@@ -150,7 +150,6 @@ namespace CustomRenderer.Droid
 
         public void OnPictureTaken(byte[] data, Camera camera)
         {
-			camera.StopPreview();
 
             FileOutputStream outStream = null;
 			Java.IO.File dataDir = Android.OS.Environment.GetExternalStoragePublicDirectory(Android.OS.Environment.DirectoryDcim);
@@ -174,7 +173,6 @@ namespace CustomRenderer.Droid
                     System.Console.Out.WriteLine(ie.Message);
                 }
             }
-            camera.StartPreview();
 		}
     }
 }
