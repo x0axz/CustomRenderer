@@ -13,7 +13,7 @@ namespace CustomRenderer.Views
                 Children = {
                     new Label { Text = "Picture" },
                     new CameraPreview {
-                        Camera = CameraOptions.Rear,
+                        Camera = CameraOptions.Front,
                         HorizontalOptions = LayoutOptions.FillAndExpand,
                         VerticalOptions = LayoutOptions.FillAndExpand
                     }

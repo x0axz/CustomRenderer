@@ -7,7 +7,7 @@
 			 Title="Main Page">
 	<ContentPage.Content>
         <StackLayout>
-            <local:CameraPreview Camera="Rear" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" />
+            <local:CameraPreview Camera="Rear" x:Name="CameraPreview" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" />
 
             <Button Text="TAKE PICTURE" Clicked="Button_Clicked" HorizontalOptions="FillAndExpand" HeightRequest="100"/>
         </StackLayout>

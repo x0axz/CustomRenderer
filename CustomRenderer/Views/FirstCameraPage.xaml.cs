@@ -10,6 +10,18 @@ namespace CustomRenderer.Views
             InitializeComponent();
         }
 
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+            CameraPreview.OnSubscribe();
+        }
+
+        protected override void OnDisappearing()
+        {
+            base.OnDisappearing();
+            CameraPreview.OnUnsubscribe();
+        }
+
         public void IDCamera_Clicked(object sender, EventArgs args)
         {
             try

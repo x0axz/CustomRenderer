@@ -21,7 +21,8 @@
 
                 <Grid Grid.Row="1">
                     <local:CameraPreview 
-                        Camera="Rear" 
+                        x:Name="CameraPreview"
+                        Camera="Front" 
                         HorizontalOptions="CenterAndExpand" 
                         VerticalOptions="FillAndExpand" 
                         WidthRequest="250"/>
