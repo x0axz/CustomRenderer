@@ -3,6 +3,8 @@ using Android.Content;
 using Android.Graphics;
 using Android.Views;
 using CustomRenderer;
+using XEssentials = Xamarin.Essentials;
+using XForms = Xamarin.Forms;
 
 namespace CustomRenderer.Droid.Views
 {
@@ -66,17 +68,30 @@ namespace CustomRenderer.Droid.Views
         }
 
 
-        double shapeScale = 1f;
+        double shapeScale;
         public double ShapeScale
         {
             get { return shapeScale; }
             set
             {
-                if (shapeScale != value)
+                XForms.Device.BeginInvokeOnMainThread(async () =>
                 {
-                    Redraw();
-                }
-                shapeScale = value;
+                    var ShapeScale = await XEssentials.SecureStorage.GetAsync("ShapeScale");
+
+                    if (ShapeScale == "0.5")
+                    {
+                        shapeScale = 0.5;
+                    }
+
+                    if (shapeScale != value)
+                    {
+                        Redraw();
+                    }
+
+                    shapeScale = value;
+                });
+
+
             }
         }
 
@@ -126,55 +141,57 @@ namespace CustomRenderer.Droid.Views
 
             paint.SetXfermode(new PorterDuffXfermode(PorterDuff.Mode.Clear));
 
-
-
-            float shapeWidth = (float)(width * shapeScale);
-            float shapeHeight = (float)(height * shapeScale);
-
-            switch (Shape)
+            XForms.Device.BeginInvokeOnMainThread(async () =>
             {
+                var ShapeScale = await XEssentials.SecureStorage.GetAsync("ShapeScale");
 
+                if (ShapeScale == "0.6")
+                {
+                    shapeScale = 0.6;
 
-                case OverlayShape.Circle:
-                    float radius = (Math.Min(shapeWidth, shapeHeight) * 0.45f);
-                    osCanvas.DrawCircle(width / 2, height / 2, radius, paint);
+                    float shapeWidth = (float)(width * shapeScale);
+                    float shapeHeight = (float)(height * shapeScale);
 
-                    break;
-                default:
+                    switch (Shape)
+                    {
+                        case OverlayShape.Circle:
+                            float radius = (Math.Min(shapeWidth, shapeHeight) * 0.45f);
+                            osCanvas.DrawCircle(width / 2, height / 2, radius, paint);
 
-                    Path path = new Path();
-                    // Starting point
-                    path.MoveTo(shapeWidth / 2, shapeHeight / 5);
+                            break;
+                        default:
 
-                    // Upper left path
-                    path.CubicTo(5 * shapeWidth / 14, 0,
-                            0, shapeHeight / 15,
-                            shapeWidth / 28, 2 * shapeHeight / 5);
+                            Path path = new Path();
+                            // Starting point
+                            path.MoveTo(shapeWidth / 2, shapeHeight / 5);
 
-                    // Lower left path
-                    path.CubicTo(shapeWidth / 14, 2 * shapeHeight / 3,
-                            3 * shapeWidth / 7, 5 * shapeHeight / 6,
-                            shapeWidth / 2, shapeHeight);
+                            // Upper left path
+                            path.CubicTo(5 * shapeWidth / 14, 0,
+                                    0, shapeHeight / 15,
+                                    shapeWidth / 28, 2 * shapeHeight / 5);
 
-                    // Lower right path
-                    path.CubicTo(4 * shapeWidth / 7, 5 * shapeHeight / 6,
-                            13 * shapeWidth / 14, 2 * shapeHeight / 3,
-                            27 * shapeWidth / 28, 2 * shapeHeight / 5);
+                            // Lower left path
+                            path.CubicTo(shapeWidth / 14, 2 * shapeHeight / 3,
+                                    3 * shapeWidth / 7, 5 * shapeHeight / 6,
+                                    shapeWidth / 2, shapeHeight);
 
-                    // Upper right path
-                    path.CubicTo(shapeWidth, shapeHeight / 15,
-                            9 * shapeWidth / 14, 0,
-                            shapeWidth / 2, shapeHeight / 5);
+                            // Lower right path
+                            path.CubicTo(4 * shapeWidth / 7, 5 * shapeHeight / 6,
+                                    13 * shapeWidth / 14, 2 * shapeHeight / 3,
+                                    27 * shapeWidth / 28, 2 * shapeHeight / 5);
 
+                            // Upper right path
+                            path.CubicTo(shapeWidth, shapeHeight / 15,
+                                    9 * shapeWidth / 14, 0,
+                                    shapeWidth / 2, shapeHeight / 5);
 
+                            path.Offset(width / 2 - shapeWidth / 2, height / 2 - shapeHeight / 2);
 
-                    path.Offset(width / 2 - shapeWidth / 2, height / 2 - shapeHeight / 2);
-
-                    osCanvas.DrawPath(path, paint);
-                    break;
-            }
-
-
+                            osCanvas.DrawPath(path, paint);
+                            break;
+                    }
+                }
+            });
         }
 
         protected override void OnLayout(bool changed, int l, int t, int r, int b)

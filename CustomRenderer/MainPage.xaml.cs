@@ -1,5 +1,6 @@
 ﻿using Xamarin.Forms;
 using CustomRenderer.Views;
+using Xamarin.Essentials;
 
 namespace CustomRenderer
 {
@@ -12,6 +13,11 @@ namespace CustomRenderer
 
         protected override void OnAppearing()
         {
+            Device.BeginInvokeOnMainThread(async () =>
+            {
+                await SecureStorage.SetAsync("ShapeScale", "0.6");
+            });
+
             base.OnAppearing();
             CameraPreview.OnSubscribe();
         }
