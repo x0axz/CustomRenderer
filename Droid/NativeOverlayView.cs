@@ -54,7 +54,7 @@ namespace CustomRenderer.Droid.Views
             }
         }
 
-        OverlayShape overlayShape = OverlayShape.Circle;
+        OverlayShape overlayShape = OverlayShape.Oval;
 
         public OverlayShape Shape
         {
@@ -159,6 +159,14 @@ namespace CustomRenderer.Droid.Views
                             osCanvas.DrawCircle(width / 2, height / 2, radius, paint);
 
                             break;
+
+                        case OverlayShape.Oval:
+
+                            RectF rect = new RectF(width / 2 - shapeWidth / 2, height / 2 - shapeHeight / 2, shapeWidth / 2 + width / 2, shapeHeight / 2 + height / 2);
+                            osCanvas.DrawOval(rect, paint);
+
+                            break;
+
                         default:
 
                             Path path = new Path();

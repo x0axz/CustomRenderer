@@ -8,8 +8,8 @@ namespace CustomRenderer
     public enum OverlayShape
     {
         Circle,
-        Heart
-
+        Heart,
+        Oval
     }
 
     public class OverlayView : View
@@ -58,7 +58,7 @@ namespace CustomRenderer
            propertyName: nameof(Shape),
            returnType: typeof(OverlayShape),
            declaringType: typeof(OverlayView),
-           defaultValue: OverlayShape.Circle,
+           defaultValue: OverlayShape.Oval,
            defaultBindingMode: BindingMode.TwoWay);
 
         public OverlayShape Shape
