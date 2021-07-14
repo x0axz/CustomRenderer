@@ -157,14 +157,12 @@ namespace CustomRenderer.Droid.Views
                         case OverlayShape.Circle:
                             float radius = (Math.Min(shapeWidth, shapeHeight) * 0.45f);
                             osCanvas.DrawCircle(width / 2, height / 2, radius, paint);
-
                             break;
 
                         case OverlayShape.Oval:
-
+                            shapeWidth = (float)(shapeWidth * 0.8);
                             RectF rect = new RectF(width / 2 - shapeWidth / 2, height / 2 - shapeHeight / 2, shapeWidth / 2 + width / 2, shapeHeight / 2 + height / 2);
                             osCanvas.DrawOval(rect, paint);
-
                             break;
 
                         default:

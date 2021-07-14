@@ -32,6 +32,7 @@
                                            x:Name="overlayView"
                                            OverlayBackgroundColor="Transparent"
                                            OverlayOpacity="0.5"
+                                           Shape="Oval"
                                            ShapeScale="0.6"
                                            HorizontalOptions="FillAndExpand"
                                            VerticalOptions="FillAndExpand" />
