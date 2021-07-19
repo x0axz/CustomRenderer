@@ -2,43 +2,132 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:CustomRenderer;assembly=CustomRenderer"
+             xmlns:effects="clr-namespace:CustomRenderer.Effects"
              x:Class="CustomRenderer.MainPage"
              Padding="0,20,0,0"
              Title="Main Page">
     <ContentPage.Content>
         <StackLayout>
-            <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="300" />
-                </Grid.RowDefinitions>
 
-                <Grid Grid.Row="0">
-                    <Grid>
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height="*" />
-                        </Grid.RowDefinitions>
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="*" />
-                            <ColumnDefinition Width="300" />
-                            <ColumnDefinition Width="*" />
-                        </Grid.ColumnDefinitions>
+            <StackLayout.GestureRecognizers>
+                <TapGestureRecognizer Tapped="Handle_Tapped"
+                                      NumberOfTapsRequired="1" />
+            </StackLayout.GestureRecognizers>
 
-                        <local:CameraPreview Grid.Column="1"
-                                             x:Name="CameraPreview"
-                                             Camera="Front"
-                                             HorizontalOptions="FillAndExpand"
-                                             VerticalOptions="FillAndExpand" />
-                        <local:OverlayView Grid.Column="1"
-                                           x:Name="overlayView"
-                                           OverlayBackgroundColor="Transparent"
-                                           OverlayOpacity="0.5"
-                                           Shape="Oval"
-                                           ShapeScale="0.6"
-                                           HorizontalOptions="FillAndExpand"
-                                           VerticalOptions="FillAndExpand" />
+            <StackLayout VerticalOptions="Start">
+            </StackLayout>
+
+            <StackLayout HorizontalOptions="Center"
+                         VerticalOptions="Center">
+
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="300" />
+                    </Grid.RowDefinitions>
+
+                    <Grid Grid.Row="0">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*" />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="300" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+
+                            <local:CameraPreview Grid.Column="1"
+                                                 x:Name="CameraPreview"
+                                                 Camera="Front"
+                                                 HorizontalOptions="FillAndExpand"
+                                                 VerticalOptions="FillAndExpand" />
+                            <local:OverlayView Grid.Column="1"
+                                               x:Name="overlayView"
+                                               OverlayBackgroundColor="Transparent"
+                                               OverlayOpacity="0.5"
+                                               Shape="Oval"
+                                               ShapeScale="0.6"
+                                               HorizontalOptions="FillAndExpand"
+                                               VerticalOptions="FillAndExpand" />
+                        </Grid>
                     </Grid>
                 </Grid>
-            </Grid>
+            </StackLayout>
+
+            <StackLayout VerticalOptions="EndAndExpand">
+
+                <StackLayout.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="Handle_Tapped"
+                                          NumberOfTapsRequired="1" />
+                </StackLayout.GestureRecognizers>
+
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+
+                    <Grid x:Name="Buttons_Tooltip"
+                          Grid.Row="0">
+
+                        <Button Text="Tooltip 1"
+                                FontSize="15"
+                                TextColor="#FFFFFF"
+                                BackgroundColor="LightSalmon"
+                                CornerRadius="05"
+                                HorizontalOptions="Start"
+                                VerticalOptions="StartAndExpand"
+                                WidthRequest="100"
+                                HeightRequest="50"
+                                MinimumHeightRequest="100"
+                                MinimumWidthRequest="50"
+                                Margin="10,0,0,30"
+                                Clicked="TooltipClicked"
+                                effects:TooltipEffect.Position="Top"
+                                effects:TooltipEffect.BackgroundColor="#004B87"
+                                effects:TooltipEffect.TextColor="#FFFFFF"
+                                effects:TooltipEffect.Text="Lorem Ipsum"
+                                effects:TooltipEffect.HasTooltip="True" />
+
+                        <Button Text="Tooltip 2"
+                                FontSize="15"
+                                TextColor="#FFFFFF"
+                                BackgroundColor="LightCoral"
+                                CornerRadius="05"
+                                HorizontalOptions="Center"
+                                VerticalOptions="CenterAndExpand"
+                                WidthRequest="100"
+                                HeightRequest="50"
+                                MinimumHeightRequest="100"
+                                MinimumWidthRequest="50"
+                                Margin="0,0,0,30"
+                                Clicked="TooltipClicked"
+                                effects:TooltipEffect.Position="Top"
+                                effects:TooltipEffect.BackgroundColor="#004B87"
+                                effects:TooltipEffect.TextColor="#FFFFFF"
+                                effects:TooltipEffect.Text="Lorem Ipsum"
+                                effects:TooltipEffect.HasTooltip="True" />
+
+                        <Button Text="Tooltip 3"
+                                FontSize="15"
+                                TextColor="#FFFFFF"
+                                BackgroundColor="LightSeaGreen"
+                                CornerRadius="05"
+                                HorizontalOptions="End"
+                                VerticalOptions="CenterAndExpand"
+                                WidthRequest="100"
+                                HeightRequest="50"
+                                MinimumHeightRequest="100"
+                                MinimumWidthRequest="50"
+                                Margin="0,0,10,30"
+                                Clicked="TooltipClicked"
+                                effects:TooltipEffect.Position="Top"
+                                effects:TooltipEffect.BackgroundColor="#004B87"
+                                effects:TooltipEffect.TextColor="#FFFFFF"
+                                effects:TooltipEffect.Text="Lorem Ipsum"
+                                effects:TooltipEffect.HasTooltip="True" />
+                    </Grid>
+                </Grid>
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

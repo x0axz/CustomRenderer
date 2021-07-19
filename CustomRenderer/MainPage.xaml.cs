@@ -1,6 +1,8 @@
-﻿using Xamarin.Forms;
+﻿using System;
+using Xamarin.Forms;
 using CustomRenderer.Views;
 using Xamarin.Essentials;
+using CustomRenderer.Effects;
 
 namespace CustomRenderer
 {
@@ -36,6 +38,23 @@ namespace CustomRenderer
                 Device.BeginInvokeOnMainThread(() => Navigation.PushModalAsync(new ButtonPage()));
             }
             catch { }
+        }
+
+        public void Handle_Tapped(object sender, EventArgs args)
+        {
+            foreach (var c in Buttons_Tooltip.Children)
+            {
+                if (TooltipEffect.GetHasTooltip(c))
+                {
+                    TooltipEffect.SetHasTooltip(c, false);
+                    TooltipEffect.SetHasTooltip(c, true);
+                }
+            }
+        }
+
+        public void TooltipClicked(object sender, EventArgs args)
+        {
+            Console.WriteLine("Working");
         }
     }
 }
