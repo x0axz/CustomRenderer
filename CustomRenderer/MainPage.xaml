@@ -36,6 +36,7 @@
                                 <ColumnDefinition Width="*" />
                             </Grid.ColumnDefinitions>
 
+                            <!--
                             <local:CameraPreview Grid.Column="1"
                                                  x:Name="CameraPreview"
                                                  Camera="Front"
@@ -49,6 +50,14 @@
                                                ShapeScale="0.6"
                                                HorizontalOptions="FillAndExpand"
                                                VerticalOptions="FillAndExpand" />
+                            -->
+
+                            <Grid Grid.Column="1"
+                                  BackgroundColor="#222222"
+                                  HorizontalOptions="CenterAndExpand"
+                                  VerticalOptions="FillAndExpand"
+                                  HeightRequest="300"
+                                  WidthRequest="300" />
                         </Grid>
                     </Grid>
                 </Grid>

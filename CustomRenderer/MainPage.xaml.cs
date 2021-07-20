@@ -21,13 +21,13 @@ namespace CustomRenderer
             });
 
             base.OnAppearing();
-            CameraPreview.OnSubscribe();
+            // CameraPreview.OnSubscribe();
         }
 
         protected override void OnDisappearing()
         {
             base.OnDisappearing();
-            CameraPreview.OnUnsubscribe();
+            // CameraPreview.OnUnsubscribe();
         }
 
         private void Button_Clicked(object sender, System.EventArgs e)
