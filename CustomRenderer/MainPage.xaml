@@ -1,24 +1,52 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:CustomRenderer;assembly=CustomRenderer"
-             xmlns:effects="clr-namespace:CustomRenderer.Effects"
              x:Class="CustomRenderer.MainPage"
              Padding="0,20,0,0"
              Title="Main Page">
     <ContentPage.Content>
         <StackLayout>
 
-            <StackLayout.GestureRecognizers>
-                <TapGestureRecognizer Tapped="Handle_Tapped"
-                                      NumberOfTapsRequired="1" />
-            </StackLayout.GestureRecognizers>
-
             <StackLayout VerticalOptions="Start">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="100" />
+                    </Grid.RowDefinitions>
+
+                    <Grid Grid.Row="0">
+                        <Button x:Name="FirstButton"
+                                Text="First"
+                                FontSize="15"
+                                TextColor="#FFFFFF"
+                                BackgroundColor="LightSalmon"
+                                CornerRadius="05"
+                                VerticalOptions="CenterAndExpand"
+                                HorizontalOptions="StartAndExpand"
+                                WidthRequest="100"
+                                HeightRequest="50"
+                                MinimumHeightRequest="100"
+                                MinimumWidthRequest="50"
+                                Margin="10,0,0,0" />
+
+                        <Button x:Name="SecondButton"
+                                Text="Second"
+                                FontSize="15"
+                                TextColor="#FFFFFF"
+                                BackgroundColor="LightCoral"
+                                CornerRadius="05"
+                                VerticalOptions="CenterAndExpand"
+                                HorizontalOptions="EndAndExpand"
+                                WidthRequest="100"
+                                HeightRequest="50"
+                                MinimumHeightRequest="100"
+                                MinimumWidthRequest="50"
+                                Margin="0,0,10,0" />
+                    </Grid>
+                </Grid>
             </StackLayout>
 
-            <StackLayout HorizontalOptions="Center"
-                         VerticalOptions="Center">
+            <StackLayout HorizontalOptions="CenterAndExpand"
+                         VerticalOptions="CenterAndExpand">
 
                 <Grid>
                     <Grid.RowDefinitions>
@@ -64,76 +92,25 @@
             </StackLayout>
 
             <StackLayout VerticalOptions="EndAndExpand">
-
-                <StackLayout.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="Handle_Tapped"
-                                          NumberOfTapsRequired="1" />
-                </StackLayout.GestureRecognizers>
-
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="Auto" />
                     </Grid.RowDefinitions>
 
-                    <Grid x:Name="Buttons_Tooltip"
-                          Grid.Row="0">
-
-                        <Button Text="Tooltip 1"
-                                FontSize="15"
-                                TextColor="#FFFFFF"
-                                BackgroundColor="LightSalmon"
-                                CornerRadius="05"
-                                HorizontalOptions="Start"
-                                VerticalOptions="StartAndExpand"
-                                WidthRequest="100"
-                                HeightRequest="50"
-                                MinimumHeightRequest="100"
-                                MinimumWidthRequest="50"
-                                Margin="10,0,0,30"
-                                Clicked="TooltipClicked"
-                                effects:TooltipEffect.Position="Top"
-                                effects:TooltipEffect.BackgroundColor="#004B87"
-                                effects:TooltipEffect.TextColor="#FFFFFF"
-                                effects:TooltipEffect.Text="Lorem Ipsum"
-                                effects:TooltipEffect.HasTooltip="True" />
-
-                        <Button Text="Tooltip 2"
-                                FontSize="15"
-                                TextColor="#FFFFFF"
-                                BackgroundColor="LightCoral"
-                                CornerRadius="05"
-                                HorizontalOptions="Center"
-                                VerticalOptions="CenterAndExpand"
-                                WidthRequest="100"
-                                HeightRequest="50"
-                                MinimumHeightRequest="100"
-                                MinimumWidthRequest="50"
-                                Margin="0,0,0,30"
-                                Clicked="TooltipClicked"
-                                effects:TooltipEffect.Position="Top"
-                                effects:TooltipEffect.BackgroundColor="#004B87"
-                                effects:TooltipEffect.TextColor="#FFFFFF"
-                                effects:TooltipEffect.Text="Lorem Ipsum"
-                                effects:TooltipEffect.HasTooltip="True" />
-
-                        <Button Text="Tooltip 3"
+                    <Grid Grid.Row="0">
+                        <Button x:Name="ThirdButton"
+                                Text="Third"
                                 FontSize="15"
                                 TextColor="#FFFFFF"
                                 BackgroundColor="LightSeaGreen"
                                 CornerRadius="05"
-                                HorizontalOptions="End"
+                                HorizontalOptions="CenterAndExpand"
                                 VerticalOptions="CenterAndExpand"
                                 WidthRequest="100"
                                 HeightRequest="50"
                                 MinimumHeightRequest="100"
                                 MinimumWidthRequest="50"
-                                Margin="0,0,10,30"
-                                Clicked="TooltipClicked"
-                                effects:TooltipEffect.Position="Top"
-                                effects:TooltipEffect.BackgroundColor="#004B87"
-                                effects:TooltipEffect.TextColor="#FFFFFF"
-                                effects:TooltipEffect.Text="Lorem Ipsum"
-                                effects:TooltipEffect.HasTooltip="True" />
+                                Margin="0,0,10,30" />
                     </Grid>
                 </Grid>
             </StackLayout>

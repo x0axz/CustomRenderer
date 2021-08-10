@@ -5309,6 +5309,1501 @@ namespace CustomRenderer.Droid
 			global::Rg.Plugins.Popup.Resource.Styleable.View_paddingEnd = global::CustomRenderer.Droid.Resource.Styleable.View_paddingEnd;
 			global::Rg.Plugins.Popup.Resource.Styleable.View_paddingStart = global::CustomRenderer.Droid.Resource.Styleable.View_paddingStart;
 			global::Rg.Plugins.Popup.Resource.Styleable.View_theme = global::CustomRenderer.Droid.Resource.Styleable.View_theme;
+			global::Spotlight.Resource.Animation.abc_fade_in = global::CustomRenderer.Droid.Resource.Animation.abc_fade_in;
+			global::Spotlight.Resource.Animation.abc_fade_out = global::CustomRenderer.Droid.Resource.Animation.abc_fade_out;
+			global::Spotlight.Resource.Animation.abc_grow_fade_in_from_bottom = global::CustomRenderer.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::Spotlight.Resource.Animation.abc_popup_enter = global::CustomRenderer.Droid.Resource.Animation.abc_popup_enter;
+			global::Spotlight.Resource.Animation.abc_popup_exit = global::CustomRenderer.Droid.Resource.Animation.abc_popup_exit;
+			global::Spotlight.Resource.Animation.abc_shrink_fade_out_from_bottom = global::CustomRenderer.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::Spotlight.Resource.Animation.abc_slide_in_bottom = global::CustomRenderer.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::Spotlight.Resource.Animation.abc_slide_in_top = global::CustomRenderer.Droid.Resource.Animation.abc_slide_in_top;
+			global::Spotlight.Resource.Animation.abc_slide_out_bottom = global::CustomRenderer.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::Spotlight.Resource.Animation.abc_slide_out_top = global::CustomRenderer.Droid.Resource.Animation.abc_slide_out_top;
+			global::Spotlight.Resource.Animator.arc_animator = global::CustomRenderer.Droid.Resource.Animator.arc_animator;
+			global::Spotlight.Resource.Attribute.actionBarDivider = global::CustomRenderer.Droid.Resource.Attribute.actionBarDivider;
+			global::Spotlight.Resource.Attribute.actionBarItemBackground = global::CustomRenderer.Droid.Resource.Attribute.actionBarItemBackground;
+			global::Spotlight.Resource.Attribute.actionBarPopupTheme = global::CustomRenderer.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::Spotlight.Resource.Attribute.actionBarSize = global::CustomRenderer.Droid.Resource.Attribute.actionBarSize;
+			global::Spotlight.Resource.Attribute.actionBarSplitStyle = global::CustomRenderer.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::Spotlight.Resource.Attribute.actionBarStyle = global::CustomRenderer.Droid.Resource.Attribute.actionBarStyle;
+			global::Spotlight.Resource.Attribute.actionBarTabBarStyle = global::CustomRenderer.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::Spotlight.Resource.Attribute.actionBarTabStyle = global::CustomRenderer.Droid.Resource.Attribute.actionBarTabStyle;
+			global::Spotlight.Resource.Attribute.actionBarTabTextStyle = global::CustomRenderer.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::Spotlight.Resource.Attribute.actionBarTheme = global::CustomRenderer.Droid.Resource.Attribute.actionBarTheme;
+			global::Spotlight.Resource.Attribute.actionBarWidgetTheme = global::CustomRenderer.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::Spotlight.Resource.Attribute.actionButtonStyle = global::CustomRenderer.Droid.Resource.Attribute.actionButtonStyle;
+			global::Spotlight.Resource.Attribute.actionDropDownStyle = global::CustomRenderer.Droid.Resource.Attribute.actionDropDownStyle;
+			global::Spotlight.Resource.Attribute.actionLayout = global::CustomRenderer.Droid.Resource.Attribute.actionLayout;
+			global::Spotlight.Resource.Attribute.actionMenuTextAppearance = global::CustomRenderer.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::Spotlight.Resource.Attribute.actionMenuTextColor = global::CustomRenderer.Droid.Resource.Attribute.actionMenuTextColor;
+			global::Spotlight.Resource.Attribute.actionModeBackground = global::CustomRenderer.Droid.Resource.Attribute.actionModeBackground;
+			global::Spotlight.Resource.Attribute.actionModeCloseButtonStyle = global::CustomRenderer.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::Spotlight.Resource.Attribute.actionModeCloseDrawable = global::CustomRenderer.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::Spotlight.Resource.Attribute.actionModeCopyDrawable = global::CustomRenderer.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::Spotlight.Resource.Attribute.actionModeCutDrawable = global::CustomRenderer.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::Spotlight.Resource.Attribute.actionModeFindDrawable = global::CustomRenderer.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::Spotlight.Resource.Attribute.actionModePasteDrawable = global::CustomRenderer.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::Spotlight.Resource.Attribute.actionModePopupWindowStyle = global::CustomRenderer.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::Spotlight.Resource.Attribute.actionModeSelectAllDrawable = global::CustomRenderer.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::Spotlight.Resource.Attribute.actionModeShareDrawable = global::CustomRenderer.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::Spotlight.Resource.Attribute.actionModeSplitBackground = global::CustomRenderer.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::Spotlight.Resource.Attribute.actionModeStyle = global::CustomRenderer.Droid.Resource.Attribute.actionModeStyle;
+			global::Spotlight.Resource.Attribute.actionModeWebSearchDrawable = global::CustomRenderer.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::Spotlight.Resource.Attribute.actionOverflowButtonStyle = global::CustomRenderer.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::Spotlight.Resource.Attribute.actionOverflowMenuStyle = global::CustomRenderer.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::Spotlight.Resource.Attribute.actionProviderClass = global::CustomRenderer.Droid.Resource.Attribute.actionProviderClass;
+			global::Spotlight.Resource.Attribute.actionViewClass = global::CustomRenderer.Droid.Resource.Attribute.actionViewClass;
+			global::Spotlight.Resource.Attribute.activityChooserViewStyle = global::CustomRenderer.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::Spotlight.Resource.Attribute.alertDialogButtonGroupStyle = global::CustomRenderer.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::Spotlight.Resource.Attribute.alertDialogCenterButtons = global::CustomRenderer.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::Spotlight.Resource.Attribute.alertDialogStyle = global::CustomRenderer.Droid.Resource.Attribute.alertDialogStyle;
+			global::Spotlight.Resource.Attribute.alertDialogTheme = global::CustomRenderer.Droid.Resource.Attribute.alertDialogTheme;
+			global::Spotlight.Resource.Attribute.allowStacking = global::CustomRenderer.Droid.Resource.Attribute.allowStacking;
+			global::Spotlight.Resource.Attribute.alpha = global::CustomRenderer.Droid.Resource.Attribute.alpha;
+			global::Spotlight.Resource.Attribute.alphabeticModifiers = global::CustomRenderer.Droid.Resource.Attribute.alphabeticModifiers;
+			global::Spotlight.Resource.Attribute.arrowHeadLength = global::CustomRenderer.Droid.Resource.Attribute.arrowHeadLength;
+			global::Spotlight.Resource.Attribute.arrowShaftLength = global::CustomRenderer.Droid.Resource.Attribute.arrowShaftLength;
+			global::Spotlight.Resource.Attribute.autoCompleteTextViewStyle = global::CustomRenderer.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::Spotlight.Resource.Attribute.autoSizeMaxTextSize = global::CustomRenderer.Droid.Resource.Attribute.autoSizeMaxTextSize;
+			global::Spotlight.Resource.Attribute.autoSizeMinTextSize = global::CustomRenderer.Droid.Resource.Attribute.autoSizeMinTextSize;
+			global::Spotlight.Resource.Attribute.autoSizePresetSizes = global::CustomRenderer.Droid.Resource.Attribute.autoSizePresetSizes;
+			global::Spotlight.Resource.Attribute.autoSizeStepGranularity = global::CustomRenderer.Droid.Resource.Attribute.autoSizeStepGranularity;
+			global::Spotlight.Resource.Attribute.autoSizeTextType = global::CustomRenderer.Droid.Resource.Attribute.autoSizeTextType;
+			global::Spotlight.Resource.Attribute.background = global::CustomRenderer.Droid.Resource.Attribute.background;
+			global::Spotlight.Resource.Attribute.backgroundSplit = global::CustomRenderer.Droid.Resource.Attribute.backgroundSplit;
+			global::Spotlight.Resource.Attribute.backgroundStacked = global::CustomRenderer.Droid.Resource.Attribute.backgroundStacked;
+			global::Spotlight.Resource.Attribute.backgroundTint = global::CustomRenderer.Droid.Resource.Attribute.backgroundTint;
+			global::Spotlight.Resource.Attribute.backgroundTintMode = global::CustomRenderer.Droid.Resource.Attribute.backgroundTintMode;
+			global::Spotlight.Resource.Attribute.barLength = global::CustomRenderer.Droid.Resource.Attribute.barLength;
+			global::Spotlight.Resource.Attribute.borderlessButtonStyle = global::CustomRenderer.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::Spotlight.Resource.Attribute.buttonBarButtonStyle = global::CustomRenderer.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::Spotlight.Resource.Attribute.buttonBarNegativeButtonStyle = global::CustomRenderer.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::Spotlight.Resource.Attribute.buttonBarNeutralButtonStyle = global::CustomRenderer.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::Spotlight.Resource.Attribute.buttonBarPositiveButtonStyle = global::CustomRenderer.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::Spotlight.Resource.Attribute.buttonBarStyle = global::CustomRenderer.Droid.Resource.Attribute.buttonBarStyle;
+			global::Spotlight.Resource.Attribute.buttonGravity = global::CustomRenderer.Droid.Resource.Attribute.buttonGravity;
+			global::Spotlight.Resource.Attribute.buttonPanelSideLayout = global::CustomRenderer.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::Spotlight.Resource.Attribute.buttonStyle = global::CustomRenderer.Droid.Resource.Attribute.buttonStyle;
+			global::Spotlight.Resource.Attribute.buttonStyleSmall = global::CustomRenderer.Droid.Resource.Attribute.buttonStyleSmall;
+			global::Spotlight.Resource.Attribute.buttonTint = global::CustomRenderer.Droid.Resource.Attribute.buttonTint;
+			global::Spotlight.Resource.Attribute.buttonTintMode = global::CustomRenderer.Droid.Resource.Attribute.buttonTintMode;
+			global::Spotlight.Resource.Attribute.checkboxStyle = global::CustomRenderer.Droid.Resource.Attribute.checkboxStyle;
+			global::Spotlight.Resource.Attribute.checkedTextViewStyle = global::CustomRenderer.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::Spotlight.Resource.Attribute.closeIcon = global::CustomRenderer.Droid.Resource.Attribute.closeIcon;
+			global::Spotlight.Resource.Attribute.closeItemLayout = global::CustomRenderer.Droid.Resource.Attribute.closeItemLayout;
+			global::Spotlight.Resource.Attribute.collapseContentDescription = global::CustomRenderer.Droid.Resource.Attribute.collapseContentDescription;
+			global::Spotlight.Resource.Attribute.collapseIcon = global::CustomRenderer.Droid.Resource.Attribute.collapseIcon;
+			global::Spotlight.Resource.Attribute.color = global::CustomRenderer.Droid.Resource.Attribute.color;
+			global::Spotlight.Resource.Attribute.colorAccent = global::CustomRenderer.Droid.Resource.Attribute.colorAccent;
+			global::Spotlight.Resource.Attribute.colorBackgroundFloating = global::CustomRenderer.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::Spotlight.Resource.Attribute.colorButtonNormal = global::CustomRenderer.Droid.Resource.Attribute.colorButtonNormal;
+			global::Spotlight.Resource.Attribute.colorControlActivated = global::CustomRenderer.Droid.Resource.Attribute.colorControlActivated;
+			global::Spotlight.Resource.Attribute.colorControlHighlight = global::CustomRenderer.Droid.Resource.Attribute.colorControlHighlight;
+			global::Spotlight.Resource.Attribute.colorControlNormal = global::CustomRenderer.Droid.Resource.Attribute.colorControlNormal;
+			global::Spotlight.Resource.Attribute.colorError = global::CustomRenderer.Droid.Resource.Attribute.colorError;
+			global::Spotlight.Resource.Attribute.colorPrimary = global::CustomRenderer.Droid.Resource.Attribute.colorPrimary;
+			global::Spotlight.Resource.Attribute.colorPrimaryDark = global::CustomRenderer.Droid.Resource.Attribute.colorPrimaryDark;
+			global::Spotlight.Resource.Attribute.colorSwitchThumbNormal = global::CustomRenderer.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::Spotlight.Resource.Attribute.commitIcon = global::CustomRenderer.Droid.Resource.Attribute.commitIcon;
+			global::Spotlight.Resource.Attribute.contentDescription = global::CustomRenderer.Droid.Resource.Attribute.contentDescription;
+			global::Spotlight.Resource.Attribute.contentInsetEnd = global::CustomRenderer.Droid.Resource.Attribute.contentInsetEnd;
+			global::Spotlight.Resource.Attribute.contentInsetEndWithActions = global::CustomRenderer.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::Spotlight.Resource.Attribute.contentInsetLeft = global::CustomRenderer.Droid.Resource.Attribute.contentInsetLeft;
+			global::Spotlight.Resource.Attribute.contentInsetRight = global::CustomRenderer.Droid.Resource.Attribute.contentInsetRight;
+			global::Spotlight.Resource.Attribute.contentInsetStart = global::CustomRenderer.Droid.Resource.Attribute.contentInsetStart;
+			global::Spotlight.Resource.Attribute.contentInsetStartWithNavigation = global::CustomRenderer.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::Spotlight.Resource.Attribute.controlBackground = global::CustomRenderer.Droid.Resource.Attribute.controlBackground;
+			global::Spotlight.Resource.Attribute.customNavigationLayout = global::CustomRenderer.Droid.Resource.Attribute.customNavigationLayout;
+			global::Spotlight.Resource.Attribute.defaultQueryHint = global::CustomRenderer.Droid.Resource.Attribute.defaultQueryHint;
+			global::Spotlight.Resource.Attribute.dialogPreferredPadding = global::CustomRenderer.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::Spotlight.Resource.Attribute.dialogTheme = global::CustomRenderer.Droid.Resource.Attribute.dialogTheme;
+			global::Spotlight.Resource.Attribute.displayOptions = global::CustomRenderer.Droid.Resource.Attribute.displayOptions;
+			global::Spotlight.Resource.Attribute.divider = global::CustomRenderer.Droid.Resource.Attribute.divider;
+			global::Spotlight.Resource.Attribute.dividerHorizontal = global::CustomRenderer.Droid.Resource.Attribute.dividerHorizontal;
+			global::Spotlight.Resource.Attribute.dividerPadding = global::CustomRenderer.Droid.Resource.Attribute.dividerPadding;
+			global::Spotlight.Resource.Attribute.dividerVertical = global::CustomRenderer.Droid.Resource.Attribute.dividerVertical;
+			global::Spotlight.Resource.Attribute.drawableSize = global::CustomRenderer.Droid.Resource.Attribute.drawableSize;
+			global::Spotlight.Resource.Attribute.drawerArrowStyle = global::CustomRenderer.Droid.Resource.Attribute.drawerArrowStyle;
+			global::Spotlight.Resource.Attribute.dropDownListViewStyle = global::CustomRenderer.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::Spotlight.Resource.Attribute.dropdownListPreferredItemHeight = global::CustomRenderer.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::Spotlight.Resource.Attribute.editTextBackground = global::CustomRenderer.Droid.Resource.Attribute.editTextBackground;
+			global::Spotlight.Resource.Attribute.editTextColor = global::CustomRenderer.Droid.Resource.Attribute.editTextColor;
+			global::Spotlight.Resource.Attribute.editTextStyle = global::CustomRenderer.Droid.Resource.Attribute.editTextStyle;
+			global::Spotlight.Resource.Attribute.elevation = global::CustomRenderer.Droid.Resource.Attribute.elevation;
+			global::Spotlight.Resource.Attribute.expandActivityOverflowButtonDrawable = global::CustomRenderer.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::Spotlight.Resource.Attribute.font = global::CustomRenderer.Droid.Resource.Attribute.font;
+			global::Spotlight.Resource.Attribute.fontFamily = global::CustomRenderer.Droid.Resource.Attribute.fontFamily;
+			global::Spotlight.Resource.Attribute.fontProviderAuthority = global::CustomRenderer.Droid.Resource.Attribute.fontProviderAuthority;
+			global::Spotlight.Resource.Attribute.fontProviderCerts = global::CustomRenderer.Droid.Resource.Attribute.fontProviderCerts;
+			global::Spotlight.Resource.Attribute.fontProviderFetchStrategy = global::CustomRenderer.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::Spotlight.Resource.Attribute.fontProviderFetchTimeout = global::CustomRenderer.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::Spotlight.Resource.Attribute.fontProviderPackage = global::CustomRenderer.Droid.Resource.Attribute.fontProviderPackage;
+			global::Spotlight.Resource.Attribute.fontProviderQuery = global::CustomRenderer.Droid.Resource.Attribute.fontProviderQuery;
+			global::Spotlight.Resource.Attribute.fontStyle = global::CustomRenderer.Droid.Resource.Attribute.fontStyle;
+			global::Spotlight.Resource.Attribute.fontWeight = global::CustomRenderer.Droid.Resource.Attribute.fontWeight;
+			global::Spotlight.Resource.Attribute.gapBetweenBars = global::CustomRenderer.Droid.Resource.Attribute.gapBetweenBars;
+			global::Spotlight.Resource.Attribute.goIcon = global::CustomRenderer.Droid.Resource.Attribute.goIcon;
+			global::Spotlight.Resource.Attribute.height = global::CustomRenderer.Droid.Resource.Attribute.height;
+			global::Spotlight.Resource.Attribute.hideOnContentScroll = global::CustomRenderer.Droid.Resource.Attribute.hideOnContentScroll;
+			global::Spotlight.Resource.Attribute.homeAsUpIndicator = global::CustomRenderer.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::Spotlight.Resource.Attribute.homeLayout = global::CustomRenderer.Droid.Resource.Attribute.homeLayout;
+			global::Spotlight.Resource.Attribute.icon = global::CustomRenderer.Droid.Resource.Attribute.icon;
+			global::Spotlight.Resource.Attribute.iconTint = global::CustomRenderer.Droid.Resource.Attribute.iconTint;
+			global::Spotlight.Resource.Attribute.iconTintMode = global::CustomRenderer.Droid.Resource.Attribute.iconTintMode;
+			global::Spotlight.Resource.Attribute.iconifiedByDefault = global::CustomRenderer.Droid.Resource.Attribute.iconifiedByDefault;
+			global::Spotlight.Resource.Attribute.imageButtonStyle = global::CustomRenderer.Droid.Resource.Attribute.imageButtonStyle;
+			global::Spotlight.Resource.Attribute.indeterminateProgressStyle = global::CustomRenderer.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::Spotlight.Resource.Attribute.initialActivityCount = global::CustomRenderer.Droid.Resource.Attribute.initialActivityCount;
+			global::Spotlight.Resource.Attribute.isLightTheme = global::CustomRenderer.Droid.Resource.Attribute.isLightTheme;
+			global::Spotlight.Resource.Attribute.itemPadding = global::CustomRenderer.Droid.Resource.Attribute.itemPadding;
+			global::Spotlight.Resource.Attribute.layout = global::CustomRenderer.Droid.Resource.Attribute.layout;
+			global::Spotlight.Resource.Attribute.listChoiceBackgroundIndicator = global::CustomRenderer.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::Spotlight.Resource.Attribute.listDividerAlertDialog = global::CustomRenderer.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::Spotlight.Resource.Attribute.listItemLayout = global::CustomRenderer.Droid.Resource.Attribute.listItemLayout;
+			global::Spotlight.Resource.Attribute.listLayout = global::CustomRenderer.Droid.Resource.Attribute.listLayout;
+			global::Spotlight.Resource.Attribute.listMenuViewStyle = global::CustomRenderer.Droid.Resource.Attribute.listMenuViewStyle;
+			global::Spotlight.Resource.Attribute.listPopupWindowStyle = global::CustomRenderer.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::Spotlight.Resource.Attribute.listPreferredItemHeight = global::CustomRenderer.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::Spotlight.Resource.Attribute.listPreferredItemHeightLarge = global::CustomRenderer.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::Spotlight.Resource.Attribute.listPreferredItemHeightSmall = global::CustomRenderer.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::Spotlight.Resource.Attribute.listPreferredItemPaddingLeft = global::CustomRenderer.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::Spotlight.Resource.Attribute.listPreferredItemPaddingRight = global::CustomRenderer.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::Spotlight.Resource.Attribute.logo = global::CustomRenderer.Droid.Resource.Attribute.logo;
+			global::Spotlight.Resource.Attribute.logoDescription = global::CustomRenderer.Droid.Resource.Attribute.logoDescription;
+			global::Spotlight.Resource.Attribute.maxButtonHeight = global::CustomRenderer.Droid.Resource.Attribute.maxButtonHeight;
+			global::Spotlight.Resource.Attribute.measureWithLargestChild = global::CustomRenderer.Droid.Resource.Attribute.measureWithLargestChild;
+			global::Spotlight.Resource.Attribute.multiChoiceItemLayout = global::CustomRenderer.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::Spotlight.Resource.Attribute.navigationContentDescription = global::CustomRenderer.Droid.Resource.Attribute.navigationContentDescription;
+			global::Spotlight.Resource.Attribute.navigationIcon = global::CustomRenderer.Droid.Resource.Attribute.navigationIcon;
+			global::Spotlight.Resource.Attribute.navigationMode = global::CustomRenderer.Droid.Resource.Attribute.navigationMode;
+			global::Spotlight.Resource.Attribute.numericModifiers = global::CustomRenderer.Droid.Resource.Attribute.numericModifiers;
+			global::Spotlight.Resource.Attribute.overlapAnchor = global::CustomRenderer.Droid.Resource.Attribute.overlapAnchor;
+			global::Spotlight.Resource.Attribute.paddingBottomNoButtons = global::CustomRenderer.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::Spotlight.Resource.Attribute.paddingEnd = global::CustomRenderer.Droid.Resource.Attribute.paddingEnd;
+			global::Spotlight.Resource.Attribute.paddingStart = global::CustomRenderer.Droid.Resource.Attribute.paddingStart;
+			global::Spotlight.Resource.Attribute.paddingTopNoTitle = global::CustomRenderer.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::Spotlight.Resource.Attribute.panelBackground = global::CustomRenderer.Droid.Resource.Attribute.panelBackground;
+			global::Spotlight.Resource.Attribute.panelMenuListTheme = global::CustomRenderer.Droid.Resource.Attribute.panelMenuListTheme;
+			global::Spotlight.Resource.Attribute.panelMenuListWidth = global::CustomRenderer.Droid.Resource.Attribute.panelMenuListWidth;
+			global::Spotlight.Resource.Attribute.popupMenuStyle = global::CustomRenderer.Droid.Resource.Attribute.popupMenuStyle;
+			global::Spotlight.Resource.Attribute.popupTheme = global::CustomRenderer.Droid.Resource.Attribute.popupTheme;
+			global::Spotlight.Resource.Attribute.popupWindowStyle = global::CustomRenderer.Droid.Resource.Attribute.popupWindowStyle;
+			global::Spotlight.Resource.Attribute.preserveIconSpacing = global::CustomRenderer.Droid.Resource.Attribute.preserveIconSpacing;
+			global::Spotlight.Resource.Attribute.progressBarPadding = global::CustomRenderer.Droid.Resource.Attribute.progressBarPadding;
+			global::Spotlight.Resource.Attribute.progressBarStyle = global::CustomRenderer.Droid.Resource.Attribute.progressBarStyle;
+			global::Spotlight.Resource.Attribute.queryBackground = global::CustomRenderer.Droid.Resource.Attribute.queryBackground;
+			global::Spotlight.Resource.Attribute.queryHint = global::CustomRenderer.Droid.Resource.Attribute.queryHint;
+			global::Spotlight.Resource.Attribute.radioButtonStyle = global::CustomRenderer.Droid.Resource.Attribute.radioButtonStyle;
+			global::Spotlight.Resource.Attribute.ratingBarStyle = global::CustomRenderer.Droid.Resource.Attribute.ratingBarStyle;
+			global::Spotlight.Resource.Attribute.ratingBarStyleIndicator = global::CustomRenderer.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::Spotlight.Resource.Attribute.ratingBarStyleSmall = global::CustomRenderer.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::Spotlight.Resource.Attribute.searchHintIcon = global::CustomRenderer.Droid.Resource.Attribute.searchHintIcon;
+			global::Spotlight.Resource.Attribute.searchIcon = global::CustomRenderer.Droid.Resource.Attribute.searchIcon;
+			global::Spotlight.Resource.Attribute.searchViewStyle = global::CustomRenderer.Droid.Resource.Attribute.searchViewStyle;
+			global::Spotlight.Resource.Attribute.seekBarStyle = global::CustomRenderer.Droid.Resource.Attribute.seekBarStyle;
+			global::Spotlight.Resource.Attribute.selectableItemBackground = global::CustomRenderer.Droid.Resource.Attribute.selectableItemBackground;
+			global::Spotlight.Resource.Attribute.selectableItemBackgroundBorderless = global::CustomRenderer.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::Spotlight.Resource.Attribute.showAsAction = global::CustomRenderer.Droid.Resource.Attribute.showAsAction;
+			global::Spotlight.Resource.Attribute.showDividers = global::CustomRenderer.Droid.Resource.Attribute.showDividers;
+			global::Spotlight.Resource.Attribute.showText = global::CustomRenderer.Droid.Resource.Attribute.showText;
+			global::Spotlight.Resource.Attribute.showTitle = global::CustomRenderer.Droid.Resource.Attribute.showTitle;
+			global::Spotlight.Resource.Attribute.singleChoiceItemLayout = global::CustomRenderer.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::Spotlight.Resource.Attribute.spinBars = global::CustomRenderer.Droid.Resource.Attribute.spinBars;
+			global::Spotlight.Resource.Attribute.spinnerDropDownItemStyle = global::CustomRenderer.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::Spotlight.Resource.Attribute.spinnerStyle = global::CustomRenderer.Droid.Resource.Attribute.spinnerStyle;
+			global::Spotlight.Resource.Attribute.splitTrack = global::CustomRenderer.Droid.Resource.Attribute.splitTrack;
+			global::Spotlight.Resource.Attribute.srcCompat = global::CustomRenderer.Droid.Resource.Attribute.srcCompat;
+			global::Spotlight.Resource.Attribute.state_above_anchor = global::CustomRenderer.Droid.Resource.Attribute.state_above_anchor;
+			global::Spotlight.Resource.Attribute.subMenuArrow = global::CustomRenderer.Droid.Resource.Attribute.subMenuArrow;
+			global::Spotlight.Resource.Attribute.submitBackground = global::CustomRenderer.Droid.Resource.Attribute.submitBackground;
+			global::Spotlight.Resource.Attribute.subtitle = global::CustomRenderer.Droid.Resource.Attribute.subtitle;
+			global::Spotlight.Resource.Attribute.subtitleTextAppearance = global::CustomRenderer.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::Spotlight.Resource.Attribute.subtitleTextColor = global::CustomRenderer.Droid.Resource.Attribute.subtitleTextColor;
+			global::Spotlight.Resource.Attribute.subtitleTextStyle = global::CustomRenderer.Droid.Resource.Attribute.subtitleTextStyle;
+			global::Spotlight.Resource.Attribute.suggestionRowLayout = global::CustomRenderer.Droid.Resource.Attribute.suggestionRowLayout;
+			global::Spotlight.Resource.Attribute.switchMinWidth = global::CustomRenderer.Droid.Resource.Attribute.switchMinWidth;
+			global::Spotlight.Resource.Attribute.switchPadding = global::CustomRenderer.Droid.Resource.Attribute.switchPadding;
+			global::Spotlight.Resource.Attribute.switchStyle = global::CustomRenderer.Droid.Resource.Attribute.switchStyle;
+			global::Spotlight.Resource.Attribute.switchTextAppearance = global::CustomRenderer.Droid.Resource.Attribute.switchTextAppearance;
+			global::Spotlight.Resource.Attribute.textAllCaps = global::CustomRenderer.Droid.Resource.Attribute.textAllCaps;
+			global::Spotlight.Resource.Attribute.textAppearanceLargePopupMenu = global::CustomRenderer.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::Spotlight.Resource.Attribute.textAppearanceListItem = global::CustomRenderer.Droid.Resource.Attribute.textAppearanceListItem;
+			global::Spotlight.Resource.Attribute.textAppearanceListItemSecondary = global::CustomRenderer.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::Spotlight.Resource.Attribute.textAppearanceListItemSmall = global::CustomRenderer.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::Spotlight.Resource.Attribute.textAppearancePopupMenuHeader = global::CustomRenderer.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::Spotlight.Resource.Attribute.textAppearanceSearchResultSubtitle = global::CustomRenderer.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::Spotlight.Resource.Attribute.textAppearanceSearchResultTitle = global::CustomRenderer.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::Spotlight.Resource.Attribute.textAppearanceSmallPopupMenu = global::CustomRenderer.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::Spotlight.Resource.Attribute.textColorAlertDialogListItem = global::CustomRenderer.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::Spotlight.Resource.Attribute.textColorSearchUrl = global::CustomRenderer.Droid.Resource.Attribute.textColorSearchUrl;
+			global::Spotlight.Resource.Attribute.theme = global::CustomRenderer.Droid.Resource.Attribute.theme;
+			global::Spotlight.Resource.Attribute.thickness = global::CustomRenderer.Droid.Resource.Attribute.thickness;
+			global::Spotlight.Resource.Attribute.thumbTextPadding = global::CustomRenderer.Droid.Resource.Attribute.thumbTextPadding;
+			global::Spotlight.Resource.Attribute.thumbTint = global::CustomRenderer.Droid.Resource.Attribute.thumbTint;
+			global::Spotlight.Resource.Attribute.thumbTintMode = global::CustomRenderer.Droid.Resource.Attribute.thumbTintMode;
+			global::Spotlight.Resource.Attribute.tickMark = global::CustomRenderer.Droid.Resource.Attribute.tickMark;
+			global::Spotlight.Resource.Attribute.tickMarkTint = global::CustomRenderer.Droid.Resource.Attribute.tickMarkTint;
+			global::Spotlight.Resource.Attribute.tickMarkTintMode = global::CustomRenderer.Droid.Resource.Attribute.tickMarkTintMode;
+			global::Spotlight.Resource.Attribute.tint = global::CustomRenderer.Droid.Resource.Attribute.tint;
+			global::Spotlight.Resource.Attribute.tintMode = global::CustomRenderer.Droid.Resource.Attribute.tintMode;
+			global::Spotlight.Resource.Attribute.title = global::CustomRenderer.Droid.Resource.Attribute.title;
+			global::Spotlight.Resource.Attribute.titleMargin = global::CustomRenderer.Droid.Resource.Attribute.titleMargin;
+			global::Spotlight.Resource.Attribute.titleMarginBottom = global::CustomRenderer.Droid.Resource.Attribute.titleMarginBottom;
+			global::Spotlight.Resource.Attribute.titleMarginEnd = global::CustomRenderer.Droid.Resource.Attribute.titleMarginEnd;
+			global::Spotlight.Resource.Attribute.titleMarginStart = global::CustomRenderer.Droid.Resource.Attribute.titleMarginStart;
+			global::Spotlight.Resource.Attribute.titleMarginTop = global::CustomRenderer.Droid.Resource.Attribute.titleMarginTop;
+			global::Spotlight.Resource.Attribute.titleMargins = global::CustomRenderer.Droid.Resource.Attribute.titleMargins;
+			global::Spotlight.Resource.Attribute.titleTextAppearance = global::CustomRenderer.Droid.Resource.Attribute.titleTextAppearance;
+			global::Spotlight.Resource.Attribute.titleTextColor = global::CustomRenderer.Droid.Resource.Attribute.titleTextColor;
+			global::Spotlight.Resource.Attribute.titleTextStyle = global::CustomRenderer.Droid.Resource.Attribute.titleTextStyle;
+			global::Spotlight.Resource.Attribute.toolbarNavigationButtonStyle = global::CustomRenderer.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::Spotlight.Resource.Attribute.toolbarStyle = global::CustomRenderer.Droid.Resource.Attribute.toolbarStyle;
+			global::Spotlight.Resource.Attribute.tooltipForegroundColor = global::CustomRenderer.Droid.Resource.Attribute.tooltipForegroundColor;
+			global::Spotlight.Resource.Attribute.tooltipFrameBackground = global::CustomRenderer.Droid.Resource.Attribute.tooltipFrameBackground;
+			global::Spotlight.Resource.Attribute.tooltipText = global::CustomRenderer.Droid.Resource.Attribute.tooltipText;
+			global::Spotlight.Resource.Attribute.track = global::CustomRenderer.Droid.Resource.Attribute.track;
+			global::Spotlight.Resource.Attribute.trackTint = global::CustomRenderer.Droid.Resource.Attribute.trackTint;
+			global::Spotlight.Resource.Attribute.trackTintMode = global::CustomRenderer.Droid.Resource.Attribute.trackTintMode;
+			global::Spotlight.Resource.Attribute.voiceIcon = global::CustomRenderer.Droid.Resource.Attribute.voiceIcon;
+			global::Spotlight.Resource.Attribute.windowActionBar = global::CustomRenderer.Droid.Resource.Attribute.windowActionBar;
+			global::Spotlight.Resource.Attribute.windowActionBarOverlay = global::CustomRenderer.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::Spotlight.Resource.Attribute.windowActionModeOverlay = global::CustomRenderer.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::Spotlight.Resource.Attribute.windowFixedHeightMajor = global::CustomRenderer.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::Spotlight.Resource.Attribute.windowFixedHeightMinor = global::CustomRenderer.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::Spotlight.Resource.Attribute.windowFixedWidthMajor = global::CustomRenderer.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::Spotlight.Resource.Attribute.windowFixedWidthMinor = global::CustomRenderer.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::Spotlight.Resource.Attribute.windowMinWidthMajor = global::CustomRenderer.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::Spotlight.Resource.Attribute.windowMinWidthMinor = global::CustomRenderer.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::Spotlight.Resource.Attribute.windowNoTitle = global::CustomRenderer.Droid.Resource.Attribute.windowNoTitle;
+			global::Spotlight.Resource.Boolean.abc_action_bar_embed_tabs = global::CustomRenderer.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::Spotlight.Resource.Boolean.abc_allow_stacked_button_bar = global::CustomRenderer.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::Spotlight.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::CustomRenderer.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::Spotlight.Resource.Color.abc_background_cache_hint_selector_material_dark = global::CustomRenderer.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::Spotlight.Resource.Color.abc_background_cache_hint_selector_material_light = global::CustomRenderer.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::Spotlight.Resource.Color.abc_btn_colored_borderless_text_material = global::CustomRenderer.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::Spotlight.Resource.Color.abc_btn_colored_text_material = global::CustomRenderer.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::Spotlight.Resource.Color.abc_color_highlight_material = global::CustomRenderer.Droid.Resource.Color.abc_color_highlight_material;
+			global::Spotlight.Resource.Color.abc_hint_foreground_material_dark = global::CustomRenderer.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::Spotlight.Resource.Color.abc_hint_foreground_material_light = global::CustomRenderer.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::Spotlight.Resource.Color.abc_primary_text_disable_only_material_dark = global::CustomRenderer.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::Spotlight.Resource.Color.abc_primary_text_disable_only_material_light = global::CustomRenderer.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::Spotlight.Resource.Color.abc_primary_text_material_dark = global::CustomRenderer.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::Spotlight.Resource.Color.abc_primary_text_material_light = global::CustomRenderer.Droid.Resource.Color.abc_primary_text_material_light;
+			global::Spotlight.Resource.Color.abc_search_url_text = global::CustomRenderer.Droid.Resource.Color.abc_search_url_text;
+			global::Spotlight.Resource.Color.abc_search_url_text_normal = global::CustomRenderer.Droid.Resource.Color.abc_search_url_text_normal;
+			global::Spotlight.Resource.Color.abc_search_url_text_pressed = global::CustomRenderer.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::Spotlight.Resource.Color.abc_search_url_text_selected = global::CustomRenderer.Droid.Resource.Color.abc_search_url_text_selected;
+			global::Spotlight.Resource.Color.abc_secondary_text_material_dark = global::CustomRenderer.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::Spotlight.Resource.Color.abc_secondary_text_material_light = global::CustomRenderer.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::Spotlight.Resource.Color.abc_tint_btn_checkable = global::CustomRenderer.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::Spotlight.Resource.Color.abc_tint_default = global::CustomRenderer.Droid.Resource.Color.abc_tint_default;
+			global::Spotlight.Resource.Color.abc_tint_edittext = global::CustomRenderer.Droid.Resource.Color.abc_tint_edittext;
+			global::Spotlight.Resource.Color.abc_tint_seek_thumb = global::CustomRenderer.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::Spotlight.Resource.Color.abc_tint_spinner = global::CustomRenderer.Droid.Resource.Color.abc_tint_spinner;
+			global::Spotlight.Resource.Color.abc_tint_switch_track = global::CustomRenderer.Droid.Resource.Color.abc_tint_switch_track;
+			global::Spotlight.Resource.Color.accent_material_dark = global::CustomRenderer.Droid.Resource.Color.accent_material_dark;
+			global::Spotlight.Resource.Color.accent_material_light = global::CustomRenderer.Droid.Resource.Color.accent_material_light;
+			global::Spotlight.Resource.Color.background_floating_material_dark = global::CustomRenderer.Droid.Resource.Color.background_floating_material_dark;
+			global::Spotlight.Resource.Color.background_floating_material_light = global::CustomRenderer.Droid.Resource.Color.background_floating_material_light;
+			global::Spotlight.Resource.Color.background_material_dark = global::CustomRenderer.Droid.Resource.Color.background_material_dark;
+			global::Spotlight.Resource.Color.background_material_light = global::CustomRenderer.Droid.Resource.Color.background_material_light;
+			global::Spotlight.Resource.Color.bright_foreground_disabled_material_dark = global::CustomRenderer.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::Spotlight.Resource.Color.bright_foreground_disabled_material_light = global::CustomRenderer.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::Spotlight.Resource.Color.bright_foreground_inverse_material_dark = global::CustomRenderer.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::Spotlight.Resource.Color.bright_foreground_inverse_material_light = global::CustomRenderer.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::Spotlight.Resource.Color.bright_foreground_material_dark = global::CustomRenderer.Droid.Resource.Color.bright_foreground_material_dark;
+			global::Spotlight.Resource.Color.bright_foreground_material_light = global::CustomRenderer.Droid.Resource.Color.bright_foreground_material_light;
+			global::Spotlight.Resource.Color.button_material_dark = global::CustomRenderer.Droid.Resource.Color.button_material_dark;
+			global::Spotlight.Resource.Color.button_material_light = global::CustomRenderer.Droid.Resource.Color.button_material_light;
+			global::Spotlight.Resource.Color.dim_foreground_disabled_material_dark = global::CustomRenderer.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::Spotlight.Resource.Color.dim_foreground_disabled_material_light = global::CustomRenderer.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::Spotlight.Resource.Color.dim_foreground_material_dark = global::CustomRenderer.Droid.Resource.Color.dim_foreground_material_dark;
+			global::Spotlight.Resource.Color.dim_foreground_material_light = global::CustomRenderer.Droid.Resource.Color.dim_foreground_material_light;
+			global::Spotlight.Resource.Color.foreground_material_dark = global::CustomRenderer.Droid.Resource.Color.foreground_material_dark;
+			global::Spotlight.Resource.Color.foreground_material_light = global::CustomRenderer.Droid.Resource.Color.foreground_material_light;
+			global::Spotlight.Resource.Color.highlighted_text_material_dark = global::CustomRenderer.Droid.Resource.Color.highlighted_text_material_dark;
+			global::Spotlight.Resource.Color.highlighted_text_material_light = global::CustomRenderer.Droid.Resource.Color.highlighted_text_material_light;
+			global::Spotlight.Resource.Color.material_blue_grey_800 = global::CustomRenderer.Droid.Resource.Color.material_blue_grey_800;
+			global::Spotlight.Resource.Color.material_blue_grey_900 = global::CustomRenderer.Droid.Resource.Color.material_blue_grey_900;
+			global::Spotlight.Resource.Color.material_blue_grey_950 = global::CustomRenderer.Droid.Resource.Color.material_blue_grey_950;
+			global::Spotlight.Resource.Color.material_deep_teal_200 = global::CustomRenderer.Droid.Resource.Color.material_deep_teal_200;
+			global::Spotlight.Resource.Color.material_deep_teal_500 = global::CustomRenderer.Droid.Resource.Color.material_deep_teal_500;
+			global::Spotlight.Resource.Color.material_grey_100 = global::CustomRenderer.Droid.Resource.Color.material_grey_100;
+			global::Spotlight.Resource.Color.material_grey_300 = global::CustomRenderer.Droid.Resource.Color.material_grey_300;
+			global::Spotlight.Resource.Color.material_grey_50 = global::CustomRenderer.Droid.Resource.Color.material_grey_50;
+			global::Spotlight.Resource.Color.material_grey_600 = global::CustomRenderer.Droid.Resource.Color.material_grey_600;
+			global::Spotlight.Resource.Color.material_grey_800 = global::CustomRenderer.Droid.Resource.Color.material_grey_800;
+			global::Spotlight.Resource.Color.material_grey_850 = global::CustomRenderer.Droid.Resource.Color.material_grey_850;
+			global::Spotlight.Resource.Color.material_grey_900 = global::CustomRenderer.Droid.Resource.Color.material_grey_900;
+			global::Spotlight.Resource.Color.notification_action_color_filter = global::CustomRenderer.Droid.Resource.Color.notification_action_color_filter;
+			global::Spotlight.Resource.Color.notification_icon_bg_color = global::CustomRenderer.Droid.Resource.Color.notification_icon_bg_color;
+			global::Spotlight.Resource.Color.notification_material_background_media_default_color = global::CustomRenderer.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::Spotlight.Resource.Color.primary_dark_material_dark = global::CustomRenderer.Droid.Resource.Color.primary_dark_material_dark;
+			global::Spotlight.Resource.Color.primary_dark_material_light = global::CustomRenderer.Droid.Resource.Color.primary_dark_material_light;
+			global::Spotlight.Resource.Color.primary_material_dark = global::CustomRenderer.Droid.Resource.Color.primary_material_dark;
+			global::Spotlight.Resource.Color.primary_material_light = global::CustomRenderer.Droid.Resource.Color.primary_material_light;
+			global::Spotlight.Resource.Color.primary_text_default_material_dark = global::CustomRenderer.Droid.Resource.Color.primary_text_default_material_dark;
+			global::Spotlight.Resource.Color.primary_text_default_material_light = global::CustomRenderer.Droid.Resource.Color.primary_text_default_material_light;
+			global::Spotlight.Resource.Color.primary_text_disabled_material_dark = global::CustomRenderer.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::Spotlight.Resource.Color.primary_text_disabled_material_light = global::CustomRenderer.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::Spotlight.Resource.Color.ripple_material_dark = global::CustomRenderer.Droid.Resource.Color.ripple_material_dark;
+			global::Spotlight.Resource.Color.ripple_material_light = global::CustomRenderer.Droid.Resource.Color.ripple_material_light;
+			global::Spotlight.Resource.Color.secondary_text_default_material_dark = global::CustomRenderer.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::Spotlight.Resource.Color.secondary_text_default_material_light = global::CustomRenderer.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Spotlight.Resource.Color.secondary_text_disabled_material_dark = global::CustomRenderer.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::Spotlight.Resource.Color.secondary_text_disabled_material_light = global::CustomRenderer.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::Spotlight.Resource.Color.switch_thumb_disabled_material_dark = global::CustomRenderer.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::Spotlight.Resource.Color.switch_thumb_disabled_material_light = global::CustomRenderer.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::Spotlight.Resource.Color.switch_thumb_material_dark = global::CustomRenderer.Droid.Resource.Color.switch_thumb_material_dark;
+			global::Spotlight.Resource.Color.switch_thumb_material_light = global::CustomRenderer.Droid.Resource.Color.switch_thumb_material_light;
+			global::Spotlight.Resource.Color.switch_thumb_normal_material_dark = global::CustomRenderer.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::Spotlight.Resource.Color.switch_thumb_normal_material_light = global::CustomRenderer.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::Spotlight.Resource.Color.tooltip_background_dark = global::CustomRenderer.Droid.Resource.Color.tooltip_background_dark;
+			global::Spotlight.Resource.Color.tooltip_background_light = global::CustomRenderer.Droid.Resource.Color.tooltip_background_light;
+			global::Spotlight.Resource.Dimension.abc_action_bar_content_inset_material = global::CustomRenderer.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::Spotlight.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::CustomRenderer.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::Spotlight.Resource.Dimension.abc_action_bar_default_height_material = global::CustomRenderer.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::Spotlight.Resource.Dimension.abc_action_bar_default_padding_end_material = global::CustomRenderer.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::Spotlight.Resource.Dimension.abc_action_bar_default_padding_start_material = global::CustomRenderer.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::Spotlight.Resource.Dimension.abc_action_bar_elevation_material = global::CustomRenderer.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::Spotlight.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::CustomRenderer.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::Spotlight.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::CustomRenderer.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::Spotlight.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::CustomRenderer.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::Spotlight.Resource.Dimension.abc_action_bar_stacked_max_height = global::CustomRenderer.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::Spotlight.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::CustomRenderer.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::Spotlight.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::CustomRenderer.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::Spotlight.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::CustomRenderer.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::Spotlight.Resource.Dimension.abc_action_button_min_height_material = global::CustomRenderer.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::Spotlight.Resource.Dimension.abc_action_button_min_width_material = global::CustomRenderer.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::Spotlight.Resource.Dimension.abc_action_button_min_width_overflow_material = global::CustomRenderer.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::Spotlight.Resource.Dimension.abc_alert_dialog_button_bar_height = global::CustomRenderer.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::Spotlight.Resource.Dimension.abc_button_inset_horizontal_material = global::CustomRenderer.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::Spotlight.Resource.Dimension.abc_button_inset_vertical_material = global::CustomRenderer.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::Spotlight.Resource.Dimension.abc_button_padding_horizontal_material = global::CustomRenderer.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::Spotlight.Resource.Dimension.abc_button_padding_vertical_material = global::CustomRenderer.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::Spotlight.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::CustomRenderer.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::Spotlight.Resource.Dimension.abc_config_prefDialogWidth = global::CustomRenderer.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::Spotlight.Resource.Dimension.abc_control_corner_material = global::CustomRenderer.Droid.Resource.Dimension.abc_control_corner_material;
+			global::Spotlight.Resource.Dimension.abc_control_inset_material = global::CustomRenderer.Droid.Resource.Dimension.abc_control_inset_material;
+			global::Spotlight.Resource.Dimension.abc_control_padding_material = global::CustomRenderer.Droid.Resource.Dimension.abc_control_padding_material;
+			global::Spotlight.Resource.Dimension.abc_dialog_fixed_height_major = global::CustomRenderer.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::Spotlight.Resource.Dimension.abc_dialog_fixed_height_minor = global::CustomRenderer.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::Spotlight.Resource.Dimension.abc_dialog_fixed_width_major = global::CustomRenderer.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::Spotlight.Resource.Dimension.abc_dialog_fixed_width_minor = global::CustomRenderer.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::Spotlight.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::CustomRenderer.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::Spotlight.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::CustomRenderer.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::Spotlight.Resource.Dimension.abc_dialog_min_width_major = global::CustomRenderer.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::Spotlight.Resource.Dimension.abc_dialog_min_width_minor = global::CustomRenderer.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::Spotlight.Resource.Dimension.abc_dialog_padding_material = global::CustomRenderer.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::Spotlight.Resource.Dimension.abc_dialog_padding_top_material = global::CustomRenderer.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::Spotlight.Resource.Dimension.abc_dialog_title_divider_material = global::CustomRenderer.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::Spotlight.Resource.Dimension.abc_disabled_alpha_material_dark = global::CustomRenderer.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::Spotlight.Resource.Dimension.abc_disabled_alpha_material_light = global::CustomRenderer.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::Spotlight.Resource.Dimension.abc_dropdownitem_icon_width = global::CustomRenderer.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::Spotlight.Resource.Dimension.abc_dropdownitem_text_padding_left = global::CustomRenderer.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::Spotlight.Resource.Dimension.abc_dropdownitem_text_padding_right = global::CustomRenderer.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::Spotlight.Resource.Dimension.abc_edit_text_inset_bottom_material = global::CustomRenderer.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::Spotlight.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::CustomRenderer.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::Spotlight.Resource.Dimension.abc_edit_text_inset_top_material = global::CustomRenderer.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::Spotlight.Resource.Dimension.abc_floating_window_z = global::CustomRenderer.Droid.Resource.Dimension.abc_floating_window_z;
+			global::Spotlight.Resource.Dimension.abc_list_item_padding_horizontal_material = global::CustomRenderer.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::Spotlight.Resource.Dimension.abc_panel_menu_list_width = global::CustomRenderer.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::Spotlight.Resource.Dimension.abc_progress_bar_height_material = global::CustomRenderer.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::Spotlight.Resource.Dimension.abc_search_view_preferred_height = global::CustomRenderer.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::Spotlight.Resource.Dimension.abc_search_view_preferred_width = global::CustomRenderer.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::Spotlight.Resource.Dimension.abc_seekbar_track_background_height_material = global::CustomRenderer.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::Spotlight.Resource.Dimension.abc_seekbar_track_progress_height_material = global::CustomRenderer.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::Spotlight.Resource.Dimension.abc_select_dialog_padding_start_material = global::CustomRenderer.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::Spotlight.Resource.Dimension.abc_switch_padding = global::CustomRenderer.Droid.Resource.Dimension.abc_switch_padding;
+			global::Spotlight.Resource.Dimension.abc_text_size_body_1_material = global::CustomRenderer.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::Spotlight.Resource.Dimension.abc_text_size_body_2_material = global::CustomRenderer.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::Spotlight.Resource.Dimension.abc_text_size_button_material = global::CustomRenderer.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::Spotlight.Resource.Dimension.abc_text_size_caption_material = global::CustomRenderer.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::Spotlight.Resource.Dimension.abc_text_size_display_1_material = global::CustomRenderer.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::Spotlight.Resource.Dimension.abc_text_size_display_2_material = global::CustomRenderer.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::Spotlight.Resource.Dimension.abc_text_size_display_3_material = global::CustomRenderer.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::Spotlight.Resource.Dimension.abc_text_size_display_4_material = global::CustomRenderer.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::Spotlight.Resource.Dimension.abc_text_size_headline_material = global::CustomRenderer.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::Spotlight.Resource.Dimension.abc_text_size_large_material = global::CustomRenderer.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::Spotlight.Resource.Dimension.abc_text_size_medium_material = global::CustomRenderer.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::Spotlight.Resource.Dimension.abc_text_size_menu_header_material = global::CustomRenderer.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::Spotlight.Resource.Dimension.abc_text_size_menu_material = global::CustomRenderer.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::Spotlight.Resource.Dimension.abc_text_size_small_material = global::CustomRenderer.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::Spotlight.Resource.Dimension.abc_text_size_subhead_material = global::CustomRenderer.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::Spotlight.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::CustomRenderer.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::Spotlight.Resource.Dimension.abc_text_size_title_material = global::CustomRenderer.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::Spotlight.Resource.Dimension.abc_text_size_title_material_toolbar = global::CustomRenderer.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::Spotlight.Resource.Dimension.compat_button_inset_horizontal_material = global::CustomRenderer.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::Spotlight.Resource.Dimension.compat_button_inset_vertical_material = global::CustomRenderer.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::Spotlight.Resource.Dimension.compat_button_padding_horizontal_material = global::CustomRenderer.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::Spotlight.Resource.Dimension.compat_button_padding_vertical_material = global::CustomRenderer.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::Spotlight.Resource.Dimension.compat_control_corner_material = global::CustomRenderer.Droid.Resource.Dimension.compat_control_corner_material;
+			global::Spotlight.Resource.Dimension.disabled_alpha_material_dark = global::CustomRenderer.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::Spotlight.Resource.Dimension.disabled_alpha_material_light = global::CustomRenderer.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::Spotlight.Resource.Dimension.highlight_alpha_material_colored = global::CustomRenderer.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::Spotlight.Resource.Dimension.highlight_alpha_material_dark = global::CustomRenderer.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::Spotlight.Resource.Dimension.highlight_alpha_material_light = global::CustomRenderer.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::Spotlight.Resource.Dimension.hint_alpha_material_dark = global::CustomRenderer.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::Spotlight.Resource.Dimension.hint_alpha_material_light = global::CustomRenderer.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::Spotlight.Resource.Dimension.hint_pressed_alpha_material_dark = global::CustomRenderer.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::Spotlight.Resource.Dimension.hint_pressed_alpha_material_light = global::CustomRenderer.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::Spotlight.Resource.Dimension.notification_action_icon_size = global::CustomRenderer.Droid.Resource.Dimension.notification_action_icon_size;
+			global::Spotlight.Resource.Dimension.notification_action_text_size = global::CustomRenderer.Droid.Resource.Dimension.notification_action_text_size;
+			global::Spotlight.Resource.Dimension.notification_big_circle_margin = global::CustomRenderer.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::Spotlight.Resource.Dimension.notification_content_margin_start = global::CustomRenderer.Droid.Resource.Dimension.notification_content_margin_start;
+			global::Spotlight.Resource.Dimension.notification_large_icon_height = global::CustomRenderer.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Spotlight.Resource.Dimension.notification_large_icon_width = global::CustomRenderer.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Spotlight.Resource.Dimension.notification_main_column_padding_top = global::CustomRenderer.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::Spotlight.Resource.Dimension.notification_media_narrow_margin = global::CustomRenderer.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::Spotlight.Resource.Dimension.notification_right_icon_size = global::CustomRenderer.Droid.Resource.Dimension.notification_right_icon_size;
+			global::Spotlight.Resource.Dimension.notification_right_side_padding_top = global::CustomRenderer.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::Spotlight.Resource.Dimension.notification_small_icon_background_padding = global::CustomRenderer.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::Spotlight.Resource.Dimension.notification_small_icon_size_as_large = global::CustomRenderer.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Spotlight.Resource.Dimension.notification_subtext_size = global::CustomRenderer.Droid.Resource.Dimension.notification_subtext_size;
+			global::Spotlight.Resource.Dimension.notification_top_pad = global::CustomRenderer.Droid.Resource.Dimension.notification_top_pad;
+			global::Spotlight.Resource.Dimension.notification_top_pad_large_text = global::CustomRenderer.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Spotlight.Resource.Dimension.tooltip_corner_radius = global::CustomRenderer.Droid.Resource.Dimension.tooltip_corner_radius;
+			global::Spotlight.Resource.Dimension.tooltip_horizontal_padding = global::CustomRenderer.Droid.Resource.Dimension.tooltip_horizontal_padding;
+			global::Spotlight.Resource.Dimension.tooltip_margin = global::CustomRenderer.Droid.Resource.Dimension.tooltip_margin;
+			global::Spotlight.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::CustomRenderer.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::Spotlight.Resource.Dimension.tooltip_precise_anchor_threshold = global::CustomRenderer.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::Spotlight.Resource.Dimension.tooltip_vertical_padding = global::CustomRenderer.Droid.Resource.Dimension.tooltip_vertical_padding;
+			global::Spotlight.Resource.Dimension.tooltip_y_offset_non_touch = global::CustomRenderer.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::Spotlight.Resource.Dimension.tooltip_y_offset_touch = global::CustomRenderer.Droid.Resource.Dimension.tooltip_y_offset_touch;
+			global::Spotlight.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::CustomRenderer.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::Spotlight.Resource.Drawable.abc_action_bar_item_background_material = global::CustomRenderer.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::Spotlight.Resource.Drawable.abc_btn_borderless_material = global::CustomRenderer.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::Spotlight.Resource.Drawable.abc_btn_check_material = global::CustomRenderer.Droid.Resource.Drawable.abc_btn_check_material;
+			global::Spotlight.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::CustomRenderer.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::Spotlight.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::CustomRenderer.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::Spotlight.Resource.Drawable.abc_btn_colored_material = global::CustomRenderer.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::Spotlight.Resource.Drawable.abc_btn_default_mtrl_shape = global::CustomRenderer.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::Spotlight.Resource.Drawable.abc_btn_radio_material = global::CustomRenderer.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::Spotlight.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::CustomRenderer.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::Spotlight.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::CustomRenderer.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::Spotlight.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::CustomRenderer.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::Spotlight.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::CustomRenderer.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::Spotlight.Resource.Drawable.abc_cab_background_internal_bg = global::CustomRenderer.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::Spotlight.Resource.Drawable.abc_cab_background_top_material = global::CustomRenderer.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::Spotlight.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::CustomRenderer.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::Spotlight.Resource.Drawable.abc_control_background_material = global::CustomRenderer.Droid.Resource.Drawable.abc_control_background_material;
+			global::Spotlight.Resource.Drawable.abc_dialog_material_background = global::CustomRenderer.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::Spotlight.Resource.Drawable.abc_edit_text_material = global::CustomRenderer.Droid.Resource.Drawable.abc_edit_text_material;
+			global::Spotlight.Resource.Drawable.abc_ic_ab_back_material = global::CustomRenderer.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::Spotlight.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::CustomRenderer.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::Spotlight.Resource.Drawable.abc_ic_clear_material = global::CustomRenderer.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::Spotlight.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::CustomRenderer.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::Spotlight.Resource.Drawable.abc_ic_go_search_api_material = global::CustomRenderer.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::Spotlight.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::CustomRenderer.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::Spotlight.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::CustomRenderer.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::Spotlight.Resource.Drawable.abc_ic_menu_overflow_material = global::CustomRenderer.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::Spotlight.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::CustomRenderer.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::Spotlight.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::CustomRenderer.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::Spotlight.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::CustomRenderer.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::Spotlight.Resource.Drawable.abc_ic_search_api_material = global::CustomRenderer.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::Spotlight.Resource.Drawable.abc_ic_star_black_16dp = global::CustomRenderer.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::Spotlight.Resource.Drawable.abc_ic_star_black_36dp = global::CustomRenderer.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::Spotlight.Resource.Drawable.abc_ic_star_black_48dp = global::CustomRenderer.Droid.Resource.Drawable.abc_ic_star_black_48dp;
+			global::Spotlight.Resource.Drawable.abc_ic_star_half_black_16dp = global::CustomRenderer.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::Spotlight.Resource.Drawable.abc_ic_star_half_black_36dp = global::CustomRenderer.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::Spotlight.Resource.Drawable.abc_ic_star_half_black_48dp = global::CustomRenderer.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::Spotlight.Resource.Drawable.abc_ic_voice_search_api_material = global::CustomRenderer.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::Spotlight.Resource.Drawable.abc_item_background_holo_dark = global::CustomRenderer.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::Spotlight.Resource.Drawable.abc_item_background_holo_light = global::CustomRenderer.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::Spotlight.Resource.Drawable.abc_list_divider_mtrl_alpha = global::CustomRenderer.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::Spotlight.Resource.Drawable.abc_list_focused_holo = global::CustomRenderer.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::Spotlight.Resource.Drawable.abc_list_longpressed_holo = global::CustomRenderer.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::Spotlight.Resource.Drawable.abc_list_pressed_holo_dark = global::CustomRenderer.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::Spotlight.Resource.Drawable.abc_list_pressed_holo_light = global::CustomRenderer.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::Spotlight.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::CustomRenderer.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::Spotlight.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::CustomRenderer.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::Spotlight.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::CustomRenderer.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::Spotlight.Resource.Drawable.abc_list_selector_disabled_holo_light = global::CustomRenderer.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::Spotlight.Resource.Drawable.abc_list_selector_holo_dark = global::CustomRenderer.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::Spotlight.Resource.Drawable.abc_list_selector_holo_light = global::CustomRenderer.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::Spotlight.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::CustomRenderer.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::Spotlight.Resource.Drawable.abc_popup_background_mtrl_mult = global::CustomRenderer.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::Spotlight.Resource.Drawable.abc_ratingbar_indicator_material = global::CustomRenderer.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::Spotlight.Resource.Drawable.abc_ratingbar_material = global::CustomRenderer.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::Spotlight.Resource.Drawable.abc_ratingbar_small_material = global::CustomRenderer.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::Spotlight.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::CustomRenderer.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::Spotlight.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::CustomRenderer.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::Spotlight.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::CustomRenderer.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::Spotlight.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::CustomRenderer.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::Spotlight.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::CustomRenderer.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::Spotlight.Resource.Drawable.abc_seekbar_thumb_material = global::CustomRenderer.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::Spotlight.Resource.Drawable.abc_seekbar_tick_mark_material = global::CustomRenderer.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::Spotlight.Resource.Drawable.abc_seekbar_track_material = global::CustomRenderer.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::Spotlight.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::CustomRenderer.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::Spotlight.Resource.Drawable.abc_spinner_textfield_background_material = global::CustomRenderer.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::Spotlight.Resource.Drawable.abc_switch_thumb_material = global::CustomRenderer.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::Spotlight.Resource.Drawable.abc_switch_track_mtrl_alpha = global::CustomRenderer.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::Spotlight.Resource.Drawable.abc_tab_indicator_material = global::CustomRenderer.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::Spotlight.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::CustomRenderer.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::Spotlight.Resource.Drawable.abc_text_cursor_material = global::CustomRenderer.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::Spotlight.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::CustomRenderer.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::Spotlight.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::CustomRenderer.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::Spotlight.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::CustomRenderer.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::Spotlight.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::CustomRenderer.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::Spotlight.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::CustomRenderer.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::Spotlight.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::CustomRenderer.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::Spotlight.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::CustomRenderer.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::Spotlight.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::CustomRenderer.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::Spotlight.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::CustomRenderer.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::Spotlight.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::CustomRenderer.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::Spotlight.Resource.Drawable.abc_textfield_search_material = global::CustomRenderer.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::Spotlight.Resource.Drawable.abc_vector_test = global::CustomRenderer.Droid.Resource.Drawable.abc_vector_test;
+			global::Spotlight.Resource.Drawable.avd_spotlight_arc = global::CustomRenderer.Droid.Resource.Drawable.avd_spotlight_arc;
+			global::Spotlight.Resource.Drawable.ic_spotlight_arc = global::CustomRenderer.Droid.Resource.Drawable.ic_spotlight_arc;
+			global::Spotlight.Resource.Drawable.notification_action_background = global::CustomRenderer.Droid.Resource.Drawable.notification_action_background;
+			global::Spotlight.Resource.Drawable.notification_bg = global::CustomRenderer.Droid.Resource.Drawable.notification_bg;
+			global::Spotlight.Resource.Drawable.notification_bg_low = global::CustomRenderer.Droid.Resource.Drawable.notification_bg_low;
+			global::Spotlight.Resource.Drawable.notification_bg_low_normal = global::CustomRenderer.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::Spotlight.Resource.Drawable.notification_bg_low_pressed = global::CustomRenderer.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::Spotlight.Resource.Drawable.notification_bg_normal = global::CustomRenderer.Droid.Resource.Drawable.notification_bg_normal;
+			global::Spotlight.Resource.Drawable.notification_bg_normal_pressed = global::CustomRenderer.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::Spotlight.Resource.Drawable.notification_icon_background = global::CustomRenderer.Droid.Resource.Drawable.notification_icon_background;
+			global::Spotlight.Resource.Drawable.notification_template_icon_bg = global::CustomRenderer.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Spotlight.Resource.Drawable.notification_template_icon_low_bg = global::CustomRenderer.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::Spotlight.Resource.Drawable.notification_tile_bg = global::CustomRenderer.Droid.Resource.Drawable.notification_tile_bg;
+			global::Spotlight.Resource.Drawable.notify_panel_notification_icon_bg = global::CustomRenderer.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Spotlight.Resource.Drawable.tooltip_frame_dark = global::CustomRenderer.Droid.Resource.Drawable.tooltip_frame_dark;
+			global::Spotlight.Resource.Drawable.tooltip_frame_light = global::CustomRenderer.Droid.Resource.Drawable.tooltip_frame_light;
+			global::Spotlight.Resource.Id.ALT = global::CustomRenderer.Droid.Resource.Id.ALT;
+			global::Spotlight.Resource.Id.CTRL = global::CustomRenderer.Droid.Resource.Id.CTRL;
+			global::Spotlight.Resource.Id.FUNCTION = global::CustomRenderer.Droid.Resource.Id.FUNCTION;
+			global::Spotlight.Resource.Id.META = global::CustomRenderer.Droid.Resource.Id.META;
+			global::Spotlight.Resource.Id.SHIFT = global::CustomRenderer.Droid.Resource.Id.SHIFT;
+			global::Spotlight.Resource.Id.SYM = global::CustomRenderer.Droid.Resource.Id.SYM;
+			global::Spotlight.Resource.Id.action0 = global::CustomRenderer.Droid.Resource.Id.action0;
+			global::Spotlight.Resource.Id.action_bar = global::CustomRenderer.Droid.Resource.Id.action_bar;
+			global::Spotlight.Resource.Id.action_bar_activity_content = global::CustomRenderer.Droid.Resource.Id.action_bar_activity_content;
+			global::Spotlight.Resource.Id.action_bar_container = global::CustomRenderer.Droid.Resource.Id.action_bar_container;
+			global::Spotlight.Resource.Id.action_bar_root = global::CustomRenderer.Droid.Resource.Id.action_bar_root;
+			global::Spotlight.Resource.Id.action_bar_spinner = global::CustomRenderer.Droid.Resource.Id.action_bar_spinner;
+			global::Spotlight.Resource.Id.action_bar_subtitle = global::CustomRenderer.Droid.Resource.Id.action_bar_subtitle;
+			global::Spotlight.Resource.Id.action_bar_title = global::CustomRenderer.Droid.Resource.Id.action_bar_title;
+			global::Spotlight.Resource.Id.action_container = global::CustomRenderer.Droid.Resource.Id.action_container;
+			global::Spotlight.Resource.Id.action_context_bar = global::CustomRenderer.Droid.Resource.Id.action_context_bar;
+			global::Spotlight.Resource.Id.action_divider = global::CustomRenderer.Droid.Resource.Id.action_divider;
+			global::Spotlight.Resource.Id.action_image = global::CustomRenderer.Droid.Resource.Id.action_image;
+			global::Spotlight.Resource.Id.action_menu_divider = global::CustomRenderer.Droid.Resource.Id.action_menu_divider;
+			global::Spotlight.Resource.Id.action_menu_presenter = global::CustomRenderer.Droid.Resource.Id.action_menu_presenter;
+			global::Spotlight.Resource.Id.action_mode_bar = global::CustomRenderer.Droid.Resource.Id.action_mode_bar;
+			global::Spotlight.Resource.Id.action_mode_bar_stub = global::CustomRenderer.Droid.Resource.Id.action_mode_bar_stub;
+			global::Spotlight.Resource.Id.action_mode_close_button = global::CustomRenderer.Droid.Resource.Id.action_mode_close_button;
+			global::Spotlight.Resource.Id.action_text = global::CustomRenderer.Droid.Resource.Id.action_text;
+			global::Spotlight.Resource.Id.actions = global::CustomRenderer.Droid.Resource.Id.actions;
+			global::Spotlight.Resource.Id.activity_chooser_view_content = global::CustomRenderer.Droid.Resource.Id.activity_chooser_view_content;
+			global::Spotlight.Resource.Id.add = global::CustomRenderer.Droid.Resource.Id.add;
+			global::Spotlight.Resource.Id.alertTitle = global::CustomRenderer.Droid.Resource.Id.alertTitle;
+			global::Spotlight.Resource.Id.always = global::CustomRenderer.Droid.Resource.Id.always;
+			global::Spotlight.Resource.Id.async = global::CustomRenderer.Droid.Resource.Id.async;
+			global::Spotlight.Resource.Id.beginning = global::CustomRenderer.Droid.Resource.Id.beginning;
+			global::Spotlight.Resource.Id.blocking = global::CustomRenderer.Droid.Resource.Id.blocking;
+			global::Spotlight.Resource.Id.bottom = global::CustomRenderer.Droid.Resource.Id.bottom;
+			global::Spotlight.Resource.Id.buttonPanel = global::CustomRenderer.Droid.Resource.Id.buttonPanel;
+			global::Spotlight.Resource.Id.cancel_action = global::CustomRenderer.Droid.Resource.Id.cancel_action;
+			global::Spotlight.Resource.Id.checkbox = global::CustomRenderer.Droid.Resource.Id.checkbox;
+			global::Spotlight.Resource.Id.chronometer = global::CustomRenderer.Droid.Resource.Id.chronometer;
+			global::Spotlight.Resource.Id.collapseActionView = global::CustomRenderer.Droid.Resource.Id.collapseActionView;
+			global::Spotlight.Resource.Id.contentPanel = global::CustomRenderer.Droid.Resource.Id.contentPanel;
+			global::Spotlight.Resource.Id.custom = global::CustomRenderer.Droid.Resource.Id.custom;
+			global::Spotlight.Resource.Id.customPanel = global::CustomRenderer.Droid.Resource.Id.customPanel;
+			global::Spotlight.Resource.Id.decor_content_parent = global::CustomRenderer.Droid.Resource.Id.decor_content_parent;
+			global::Spotlight.Resource.Id.default_activity_button = global::CustomRenderer.Droid.Resource.Id.default_activity_button;
+			global::Spotlight.Resource.Id.disableHome = global::CustomRenderer.Droid.Resource.Id.disableHome;
+			global::Spotlight.Resource.Id.edit_query = global::CustomRenderer.Droid.Resource.Id.edit_query;
+			global::Spotlight.Resource.Id.end = global::CustomRenderer.Droid.Resource.Id.end;
+			global::Spotlight.Resource.Id.end_padder = global::CustomRenderer.Droid.Resource.Id.end_padder;
+			global::Spotlight.Resource.Id.expand_activities_button = global::CustomRenderer.Droid.Resource.Id.expand_activities_button;
+			global::Spotlight.Resource.Id.expanded_menu = global::CustomRenderer.Droid.Resource.Id.expanded_menu;
+			global::Spotlight.Resource.Id.forever = global::CustomRenderer.Droid.Resource.Id.forever;
+			global::Spotlight.Resource.Id.home = global::CustomRenderer.Droid.Resource.Id.home;
+			global::Spotlight.Resource.Id.homeAsUp = global::CustomRenderer.Droid.Resource.Id.homeAsUp;
+			global::Spotlight.Resource.Id.icon = global::CustomRenderer.Droid.Resource.Id.icon;
+			global::Spotlight.Resource.Id.icon_group = global::CustomRenderer.Droid.Resource.Id.icon_group;
+			global::Spotlight.Resource.Id.ifRoom = global::CustomRenderer.Droid.Resource.Id.ifRoom;
+			global::Spotlight.Resource.Id.image = global::CustomRenderer.Droid.Resource.Id.image;
+			global::Spotlight.Resource.Id.info = global::CustomRenderer.Droid.Resource.Id.info;
+			global::Spotlight.Resource.Id.italic = global::CustomRenderer.Droid.Resource.Id.italic;
+			global::Spotlight.Resource.Id.line1 = global::CustomRenderer.Droid.Resource.Id.line1;
+			global::Spotlight.Resource.Id.line3 = global::CustomRenderer.Droid.Resource.Id.line3;
+			global::Spotlight.Resource.Id.listMode = global::CustomRenderer.Droid.Resource.Id.listMode;
+			global::Spotlight.Resource.Id.list_item = global::CustomRenderer.Droid.Resource.Id.list_item;
+			global::Spotlight.Resource.Id.media_actions = global::CustomRenderer.Droid.Resource.Id.media_actions;
+			global::Spotlight.Resource.Id.message = global::CustomRenderer.Droid.Resource.Id.message;
+			global::Spotlight.Resource.Id.middle = global::CustomRenderer.Droid.Resource.Id.middle;
+			global::Spotlight.Resource.Id.multiply = global::CustomRenderer.Droid.Resource.Id.multiply;
+			global::Spotlight.Resource.Id.never = global::CustomRenderer.Droid.Resource.Id.never;
+			global::Spotlight.Resource.Id.none = global::CustomRenderer.Droid.Resource.Id.none;
+			global::Spotlight.Resource.Id.normal = global::CustomRenderer.Droid.Resource.Id.normal;
+			global::Spotlight.Resource.Id.notification_background = global::CustomRenderer.Droid.Resource.Id.notification_background;
+			global::Spotlight.Resource.Id.notification_main_column = global::CustomRenderer.Droid.Resource.Id.notification_main_column;
+			global::Spotlight.Resource.Id.notification_main_column_container = global::CustomRenderer.Droid.Resource.Id.notification_main_column_container;
+			global::Spotlight.Resource.Id.parentPanel = global::CustomRenderer.Droid.Resource.Id.parentPanel;
+			global::Spotlight.Resource.Id.progress_circular = global::CustomRenderer.Droid.Resource.Id.progress_circular;
+			global::Spotlight.Resource.Id.progress_horizontal = global::CustomRenderer.Droid.Resource.Id.progress_horizontal;
+			global::Spotlight.Resource.Id.radio = global::CustomRenderer.Droid.Resource.Id.radio;
+			global::Spotlight.Resource.Id.right_icon = global::CustomRenderer.Droid.Resource.Id.right_icon;
+			global::Spotlight.Resource.Id.right_side = global::CustomRenderer.Droid.Resource.Id.right_side;
+			global::Spotlight.Resource.Id.screen = global::CustomRenderer.Droid.Resource.Id.screen;
+			global::Spotlight.Resource.Id.scrollIndicatorDown = global::CustomRenderer.Droid.Resource.Id.scrollIndicatorDown;
+			global::Spotlight.Resource.Id.scrollIndicatorUp = global::CustomRenderer.Droid.Resource.Id.scrollIndicatorUp;
+			global::Spotlight.Resource.Id.scrollView = global::CustomRenderer.Droid.Resource.Id.scrollView;
+			global::Spotlight.Resource.Id.search_badge = global::CustomRenderer.Droid.Resource.Id.search_badge;
+			global::Spotlight.Resource.Id.search_bar = global::CustomRenderer.Droid.Resource.Id.search_bar;
+			global::Spotlight.Resource.Id.search_button = global::CustomRenderer.Droid.Resource.Id.search_button;
+			global::Spotlight.Resource.Id.search_close_btn = global::CustomRenderer.Droid.Resource.Id.search_close_btn;
+			global::Spotlight.Resource.Id.search_edit_frame = global::CustomRenderer.Droid.Resource.Id.search_edit_frame;
+			global::Spotlight.Resource.Id.search_go_btn = global::CustomRenderer.Droid.Resource.Id.search_go_btn;
+			global::Spotlight.Resource.Id.search_mag_icon = global::CustomRenderer.Droid.Resource.Id.search_mag_icon;
+			global::Spotlight.Resource.Id.search_plate = global::CustomRenderer.Droid.Resource.Id.search_plate;
+			global::Spotlight.Resource.Id.search_src_text = global::CustomRenderer.Droid.Resource.Id.search_src_text;
+			global::Spotlight.Resource.Id.search_voice_btn = global::CustomRenderer.Droid.Resource.Id.search_voice_btn;
+			global::Spotlight.Resource.Id.select_dialog_listview = global::CustomRenderer.Droid.Resource.Id.select_dialog_listview;
+			global::Spotlight.Resource.Id.shortcut = global::CustomRenderer.Droid.Resource.Id.shortcut;
+			global::Spotlight.Resource.Id.showCustom = global::CustomRenderer.Droid.Resource.Id.showCustom;
+			global::Spotlight.Resource.Id.showHome = global::CustomRenderer.Droid.Resource.Id.showHome;
+			global::Spotlight.Resource.Id.showTitle = global::CustomRenderer.Droid.Resource.Id.showTitle;
+			global::Spotlight.Resource.Id.spacer = global::CustomRenderer.Droid.Resource.Id.spacer;
+			global::Spotlight.Resource.Id.split_action_bar = global::CustomRenderer.Droid.Resource.Id.split_action_bar;
+			global::Spotlight.Resource.Id.src_atop = global::CustomRenderer.Droid.Resource.Id.src_atop;
+			global::Spotlight.Resource.Id.src_in = global::CustomRenderer.Droid.Resource.Id.src_in;
+			global::Spotlight.Resource.Id.src_over = global::CustomRenderer.Droid.Resource.Id.src_over;
+			global::Spotlight.Resource.Id.status_bar_latest_event_content = global::CustomRenderer.Droid.Resource.Id.status_bar_latest_event_content;
+			global::Spotlight.Resource.Id.submenuarrow = global::CustomRenderer.Droid.Resource.Id.submenuarrow;
+			global::Spotlight.Resource.Id.submit_area = global::CustomRenderer.Droid.Resource.Id.submit_area;
+			global::Spotlight.Resource.Id.tabMode = global::CustomRenderer.Droid.Resource.Id.tabMode;
+			global::Spotlight.Resource.Id.tag_transition_group = global::CustomRenderer.Droid.Resource.Id.tag_transition_group;
+			global::Spotlight.Resource.Id.text = global::CustomRenderer.Droid.Resource.Id.text;
+			global::Spotlight.Resource.Id.text2 = global::CustomRenderer.Droid.Resource.Id.text2;
+			global::Spotlight.Resource.Id.textSpacerNoButtons = global::CustomRenderer.Droid.Resource.Id.textSpacerNoButtons;
+			global::Spotlight.Resource.Id.textSpacerNoTitle = global::CustomRenderer.Droid.Resource.Id.textSpacerNoTitle;
+			global::Spotlight.Resource.Id.time = global::CustomRenderer.Droid.Resource.Id.time;
+			global::Spotlight.Resource.Id.title = global::CustomRenderer.Droid.Resource.Id.title;
+			global::Spotlight.Resource.Id.titleDividerNoCustom = global::CustomRenderer.Droid.Resource.Id.titleDividerNoCustom;
+			global::Spotlight.Resource.Id.title_template = global::CustomRenderer.Droid.Resource.Id.title_template;
+			global::Spotlight.Resource.Id.top = global::CustomRenderer.Droid.Resource.Id.top;
+			global::Spotlight.Resource.Id.topPanel = global::CustomRenderer.Droid.Resource.Id.topPanel;
+			global::Spotlight.Resource.Id.uniform = global::CustomRenderer.Droid.Resource.Id.uniform;
+			global::Spotlight.Resource.Id.up = global::CustomRenderer.Droid.Resource.Id.up;
+			global::Spotlight.Resource.Id.useLogo = global::CustomRenderer.Droid.Resource.Id.useLogo;
+			global::Spotlight.Resource.Id.withText = global::CustomRenderer.Droid.Resource.Id.withText;
+			global::Spotlight.Resource.Id.wrap_content = global::CustomRenderer.Droid.Resource.Id.wrap_content;
+			global::Spotlight.Resource.Integer.abc_config_activityDefaultDur = global::CustomRenderer.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::Spotlight.Resource.Integer.abc_config_activityShortDur = global::CustomRenderer.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::Spotlight.Resource.Integer.cancel_button_image_alpha = global::CustomRenderer.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::Spotlight.Resource.Integer.config_tooltipAnimTime = global::CustomRenderer.Droid.Resource.Integer.config_tooltipAnimTime;
+			global::Spotlight.Resource.Integer.status_bar_notification_info_maxnum = global::CustomRenderer.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Spotlight.Resource.Layout.abc_action_bar_title_item = global::CustomRenderer.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::Spotlight.Resource.Layout.abc_action_bar_up_container = global::CustomRenderer.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::Spotlight.Resource.Layout.abc_action_menu_item_layout = global::CustomRenderer.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::Spotlight.Resource.Layout.abc_action_menu_layout = global::CustomRenderer.Droid.Resource.Layout.abc_action_menu_layout;
+			global::Spotlight.Resource.Layout.abc_action_mode_bar = global::CustomRenderer.Droid.Resource.Layout.abc_action_mode_bar;
+			global::Spotlight.Resource.Layout.abc_action_mode_close_item_material = global::CustomRenderer.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::Spotlight.Resource.Layout.abc_activity_chooser_view = global::CustomRenderer.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::Spotlight.Resource.Layout.abc_activity_chooser_view_list_item = global::CustomRenderer.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::Spotlight.Resource.Layout.abc_alert_dialog_button_bar_material = global::CustomRenderer.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::Spotlight.Resource.Layout.abc_alert_dialog_material = global::CustomRenderer.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::Spotlight.Resource.Layout.abc_alert_dialog_title_material = global::CustomRenderer.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::Spotlight.Resource.Layout.abc_dialog_title_material = global::CustomRenderer.Droid.Resource.Layout.abc_dialog_title_material;
+			global::Spotlight.Resource.Layout.abc_expanded_menu_layout = global::CustomRenderer.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::Spotlight.Resource.Layout.abc_list_menu_item_checkbox = global::CustomRenderer.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::Spotlight.Resource.Layout.abc_list_menu_item_icon = global::CustomRenderer.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::Spotlight.Resource.Layout.abc_list_menu_item_layout = global::CustomRenderer.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::Spotlight.Resource.Layout.abc_list_menu_item_radio = global::CustomRenderer.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::Spotlight.Resource.Layout.abc_popup_menu_header_item_layout = global::CustomRenderer.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::Spotlight.Resource.Layout.abc_popup_menu_item_layout = global::CustomRenderer.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::Spotlight.Resource.Layout.abc_screen_content_include = global::CustomRenderer.Droid.Resource.Layout.abc_screen_content_include;
+			global::Spotlight.Resource.Layout.abc_screen_simple = global::CustomRenderer.Droid.Resource.Layout.abc_screen_simple;
+			global::Spotlight.Resource.Layout.abc_screen_simple_overlay_action_mode = global::CustomRenderer.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::Spotlight.Resource.Layout.abc_screen_toolbar = global::CustomRenderer.Droid.Resource.Layout.abc_screen_toolbar;
+			global::Spotlight.Resource.Layout.abc_search_dropdown_item_icons_2line = global::CustomRenderer.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::Spotlight.Resource.Layout.abc_search_view = global::CustomRenderer.Droid.Resource.Layout.abc_search_view;
+			global::Spotlight.Resource.Layout.abc_select_dialog_material = global::CustomRenderer.Droid.Resource.Layout.abc_select_dialog_material;
+			global::Spotlight.Resource.Layout.notification_action = global::CustomRenderer.Droid.Resource.Layout.notification_action;
+			global::Spotlight.Resource.Layout.notification_action_tombstone = global::CustomRenderer.Droid.Resource.Layout.notification_action_tombstone;
+			global::Spotlight.Resource.Layout.notification_media_action = global::CustomRenderer.Droid.Resource.Layout.notification_media_action;
+			global::Spotlight.Resource.Layout.notification_media_cancel_action = global::CustomRenderer.Droid.Resource.Layout.notification_media_cancel_action;
+			global::Spotlight.Resource.Layout.notification_template_big_media = global::CustomRenderer.Droid.Resource.Layout.notification_template_big_media;
+			global::Spotlight.Resource.Layout.notification_template_big_media_custom = global::CustomRenderer.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::Spotlight.Resource.Layout.notification_template_big_media_narrow = global::CustomRenderer.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::Spotlight.Resource.Layout.notification_template_big_media_narrow_custom = global::CustomRenderer.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::Spotlight.Resource.Layout.notification_template_custom_big = global::CustomRenderer.Droid.Resource.Layout.notification_template_custom_big;
+			global::Spotlight.Resource.Layout.notification_template_icon_group = global::CustomRenderer.Droid.Resource.Layout.notification_template_icon_group;
+			global::Spotlight.Resource.Layout.notification_template_lines_media = global::CustomRenderer.Droid.Resource.Layout.notification_template_lines_media;
+			global::Spotlight.Resource.Layout.notification_template_media = global::CustomRenderer.Droid.Resource.Layout.notification_template_media;
+			global::Spotlight.Resource.Layout.notification_template_media_custom = global::CustomRenderer.Droid.Resource.Layout.notification_template_media_custom;
+			global::Spotlight.Resource.Layout.notification_template_part_chronometer = global::CustomRenderer.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Spotlight.Resource.Layout.notification_template_part_time = global::CustomRenderer.Droid.Resource.Layout.notification_template_part_time;
+			global::Spotlight.Resource.Layout.select_dialog_item_material = global::CustomRenderer.Droid.Resource.Layout.select_dialog_item_material;
+			global::Spotlight.Resource.Layout.select_dialog_multichoice_material = global::CustomRenderer.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::Spotlight.Resource.Layout.select_dialog_singlechoice_material = global::CustomRenderer.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::Spotlight.Resource.Layout.support_simple_spinner_dropdown_item = global::CustomRenderer.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Spotlight.Resource.String.abc_action_bar_home_description = global::CustomRenderer.Droid.Resource.String.abc_action_bar_home_description;
+			global::Spotlight.Resource.String.abc_action_bar_up_description = global::CustomRenderer.Droid.Resource.String.abc_action_bar_up_description;
+			global::Spotlight.Resource.String.abc_action_menu_overflow_description = global::CustomRenderer.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::Spotlight.Resource.String.abc_action_mode_done = global::CustomRenderer.Droid.Resource.String.abc_action_mode_done;
+			global::Spotlight.Resource.String.abc_activity_chooser_view_see_all = global::CustomRenderer.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::Spotlight.Resource.String.abc_activitychooserview_choose_application = global::CustomRenderer.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::Spotlight.Resource.String.abc_capital_off = global::CustomRenderer.Droid.Resource.String.abc_capital_off;
+			global::Spotlight.Resource.String.abc_capital_on = global::CustomRenderer.Droid.Resource.String.abc_capital_on;
+			global::Spotlight.Resource.String.abc_search_hint = global::CustomRenderer.Droid.Resource.String.abc_search_hint;
+			global::Spotlight.Resource.String.abc_searchview_description_clear = global::CustomRenderer.Droid.Resource.String.abc_searchview_description_clear;
+			global::Spotlight.Resource.String.abc_searchview_description_query = global::CustomRenderer.Droid.Resource.String.abc_searchview_description_query;
+			global::Spotlight.Resource.String.abc_searchview_description_search = global::CustomRenderer.Droid.Resource.String.abc_searchview_description_search;
+			global::Spotlight.Resource.String.abc_searchview_description_submit = global::CustomRenderer.Droid.Resource.String.abc_searchview_description_submit;
+			global::Spotlight.Resource.String.abc_searchview_description_voice = global::CustomRenderer.Droid.Resource.String.abc_searchview_description_voice;
+			global::Spotlight.Resource.String.abc_shareactionprovider_share_with = global::CustomRenderer.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::Spotlight.Resource.String.abc_shareactionprovider_share_with_application = global::CustomRenderer.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::Spotlight.Resource.String.abc_toolbar_collapse_description = global::CustomRenderer.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::Spotlight.Resource.String.app_name = global::CustomRenderer.Droid.Resource.String.app_name;
+			global::Spotlight.Resource.String.search_menu_title = global::CustomRenderer.Droid.Resource.String.search_menu_title;
+			global::Spotlight.Resource.String.status_bar_notification_info_overflow = global::CustomRenderer.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Spotlight.Resource.Style.AlertDialog_AppCompat = global::CustomRenderer.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::Spotlight.Resource.Style.AlertDialog_AppCompat_Light = global::CustomRenderer.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::Spotlight.Resource.Style.Animation_AppCompat_Dialog = global::CustomRenderer.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::Spotlight.Resource.Style.Animation_AppCompat_DropDownUp = global::CustomRenderer.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::Spotlight.Resource.Style.Animation_AppCompat_Tooltip = global::CustomRenderer.Droid.Resource.Style.Animation_AppCompat_Tooltip;
+			global::Spotlight.Resource.Style.Base_AlertDialog_AppCompat = global::CustomRenderer.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::Spotlight.Resource.Style.Base_AlertDialog_AppCompat_Light = global::CustomRenderer.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::Spotlight.Resource.Style.Base_Animation_AppCompat_Dialog = global::CustomRenderer.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::Spotlight.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::CustomRenderer.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::Spotlight.Resource.Style.Base_Animation_AppCompat_Tooltip = global::CustomRenderer.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::Spotlight.Resource.Style.Base_DialogWindowTitle_AppCompat = global::CustomRenderer.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::Spotlight.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::CustomRenderer.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::Spotlight.Resource.Style.Base_TextAppearance_AppCompat = global::CustomRenderer.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::Spotlight.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::CustomRenderer.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::Spotlight.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::CustomRenderer.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::Spotlight.Resource.Style.Base_TextAppearance_AppCompat_Button = global::CustomRenderer.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::Spotlight.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::CustomRenderer.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::Spotlight.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::CustomRenderer.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::Spotlight.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::CustomRenderer.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::Spotlight.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::CustomRenderer.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::Spotlight.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::CustomRenderer.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::Spotlight.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::CustomRenderer.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::Spotlight.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::CustomRenderer.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::Spotlight.Resource.Style.Base_TextAppearance_AppCompat_Large = global::CustomRenderer.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::Spotlight.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::CustomRenderer.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::Spotlight.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::CustomRenderer.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Spotlight.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::CustomRenderer.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Spotlight.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::CustomRenderer.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::Spotlight.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::CustomRenderer.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::Spotlight.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::CustomRenderer.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::Spotlight.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::CustomRenderer.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::Spotlight.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::CustomRenderer.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Spotlight.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::CustomRenderer.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::Spotlight.Resource.Style.Base_TextAppearance_AppCompat_Small = global::CustomRenderer.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::Spotlight.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::CustomRenderer.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::Spotlight.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::CustomRenderer.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::Spotlight.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::CustomRenderer.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::Spotlight.Resource.Style.Base_TextAppearance_AppCompat_Title = global::CustomRenderer.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::Spotlight.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::CustomRenderer.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::Spotlight.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::CustomRenderer.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::Spotlight.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::CustomRenderer.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Spotlight.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::CustomRenderer.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Spotlight.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::CustomRenderer.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Spotlight.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::CustomRenderer.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Spotlight.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::CustomRenderer.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Spotlight.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::CustomRenderer.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Spotlight.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::CustomRenderer.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Spotlight.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::CustomRenderer.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::Spotlight.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::CustomRenderer.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Spotlight.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::CustomRenderer.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Spotlight.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::CustomRenderer.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Spotlight.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::CustomRenderer.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Spotlight.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::CustomRenderer.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Spotlight.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::CustomRenderer.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Spotlight.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::CustomRenderer.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Spotlight.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::CustomRenderer.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::Spotlight.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::CustomRenderer.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Spotlight.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::CustomRenderer.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Spotlight.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::CustomRenderer.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Spotlight.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::CustomRenderer.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Spotlight.Resource.Style.Base_Theme_AppCompat = global::CustomRenderer.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::Spotlight.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::CustomRenderer.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::Spotlight.Resource.Style.Base_Theme_AppCompat_Dialog = global::CustomRenderer.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::Spotlight.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::CustomRenderer.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::Spotlight.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::CustomRenderer.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::Spotlight.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::CustomRenderer.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::Spotlight.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::CustomRenderer.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::Spotlight.Resource.Style.Base_Theme_AppCompat_Light = global::CustomRenderer.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::Spotlight.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::CustomRenderer.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::Spotlight.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::CustomRenderer.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::Spotlight.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::CustomRenderer.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::Spotlight.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::CustomRenderer.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::Spotlight.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::CustomRenderer.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Spotlight.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::CustomRenderer.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::Spotlight.Resource.Style.Base_ThemeOverlay_AppCompat = global::CustomRenderer.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::Spotlight.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::CustomRenderer.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::Spotlight.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::CustomRenderer.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::Spotlight.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::CustomRenderer.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Spotlight.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::CustomRenderer.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::Spotlight.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::CustomRenderer.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Spotlight.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::CustomRenderer.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::Spotlight.Resource.Style.Base_V21_Theme_AppCompat = global::CustomRenderer.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::Spotlight.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::CustomRenderer.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::Spotlight.Resource.Style.Base_V21_Theme_AppCompat_Light = global::CustomRenderer.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::Spotlight.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::CustomRenderer.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::Spotlight.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::CustomRenderer.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::Spotlight.Resource.Style.Base_V22_Theme_AppCompat = global::CustomRenderer.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::Spotlight.Resource.Style.Base_V22_Theme_AppCompat_Light = global::CustomRenderer.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::Spotlight.Resource.Style.Base_V23_Theme_AppCompat = global::CustomRenderer.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::Spotlight.Resource.Style.Base_V23_Theme_AppCompat_Light = global::CustomRenderer.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::Spotlight.Resource.Style.Base_V26_Theme_AppCompat = global::CustomRenderer.Droid.Resource.Style.Base_V26_Theme_AppCompat;
+			global::Spotlight.Resource.Style.Base_V26_Theme_AppCompat_Light = global::CustomRenderer.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::Spotlight.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::CustomRenderer.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::Spotlight.Resource.Style.Base_V7_Theme_AppCompat = global::CustomRenderer.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::Spotlight.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::CustomRenderer.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::Spotlight.Resource.Style.Base_V7_Theme_AppCompat_Light = global::CustomRenderer.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::Spotlight.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::CustomRenderer.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::Spotlight.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::CustomRenderer.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::Spotlight.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::CustomRenderer.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::Spotlight.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::CustomRenderer.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::Spotlight.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::CustomRenderer.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::Spotlight.Resource.Style.Base_Widget_AppCompat_ActionBar = global::CustomRenderer.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::Spotlight.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::CustomRenderer.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::Spotlight.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::CustomRenderer.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::Spotlight.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::CustomRenderer.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::Spotlight.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::CustomRenderer.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::Spotlight.Resource.Style.Base_Widget_AppCompat_ActionButton = global::CustomRenderer.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::Spotlight.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::CustomRenderer.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::Spotlight.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::CustomRenderer.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::Spotlight.Resource.Style.Base_Widget_AppCompat_ActionMode = global::CustomRenderer.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::Spotlight.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::CustomRenderer.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::Spotlight.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::CustomRenderer.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::Spotlight.Resource.Style.Base_Widget_AppCompat_Button = global::CustomRenderer.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::Spotlight.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::CustomRenderer.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::Spotlight.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::CustomRenderer.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::Spotlight.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::CustomRenderer.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Spotlight.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::CustomRenderer.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::Spotlight.Resource.Style.Base_Widget_AppCompat_Button_Small = global::CustomRenderer.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::Spotlight.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::CustomRenderer.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::Spotlight.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::CustomRenderer.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Spotlight.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::CustomRenderer.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::Spotlight.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::CustomRenderer.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::Spotlight.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::CustomRenderer.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::Spotlight.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::CustomRenderer.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::Spotlight.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::CustomRenderer.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::Spotlight.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::CustomRenderer.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::Spotlight.Resource.Style.Base_Widget_AppCompat_EditText = global::CustomRenderer.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::Spotlight.Resource.Style.Base_Widget_AppCompat_ImageButton = global::CustomRenderer.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::Spotlight.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::CustomRenderer.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::Spotlight.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::CustomRenderer.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::Spotlight.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::CustomRenderer.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Spotlight.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::CustomRenderer.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::Spotlight.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::CustomRenderer.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Spotlight.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::CustomRenderer.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::Spotlight.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::CustomRenderer.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::Spotlight.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::CustomRenderer.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Spotlight.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::CustomRenderer.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::Spotlight.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::CustomRenderer.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::Spotlight.Resource.Style.Base_Widget_AppCompat_ListView = global::CustomRenderer.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::Spotlight.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::CustomRenderer.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::Spotlight.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::CustomRenderer.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::Spotlight.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::CustomRenderer.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::Spotlight.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::CustomRenderer.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::Spotlight.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::CustomRenderer.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::Spotlight.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::CustomRenderer.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::Spotlight.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::CustomRenderer.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::Spotlight.Resource.Style.Base_Widget_AppCompat_RatingBar = global::CustomRenderer.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::Spotlight.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::CustomRenderer.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::Spotlight.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::CustomRenderer.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::Spotlight.Resource.Style.Base_Widget_AppCompat_SearchView = global::CustomRenderer.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::Spotlight.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::CustomRenderer.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::Spotlight.Resource.Style.Base_Widget_AppCompat_SeekBar = global::CustomRenderer.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::Spotlight.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::CustomRenderer.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::Spotlight.Resource.Style.Base_Widget_AppCompat_Spinner = global::CustomRenderer.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::Spotlight.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::CustomRenderer.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::Spotlight.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::CustomRenderer.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::Spotlight.Resource.Style.Base_Widget_AppCompat_Toolbar = global::CustomRenderer.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::Spotlight.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::CustomRenderer.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Spotlight.Resource.Style.Platform_AppCompat = global::CustomRenderer.Droid.Resource.Style.Platform_AppCompat;
+			global::Spotlight.Resource.Style.Platform_AppCompat_Light = global::CustomRenderer.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::Spotlight.Resource.Style.Platform_ThemeOverlay_AppCompat = global::CustomRenderer.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::Spotlight.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::CustomRenderer.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::Spotlight.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::CustomRenderer.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::Spotlight.Resource.Style.Platform_V21_AppCompat = global::CustomRenderer.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::Spotlight.Resource.Style.Platform_V21_AppCompat_Light = global::CustomRenderer.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::Spotlight.Resource.Style.Platform_V25_AppCompat = global::CustomRenderer.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::Spotlight.Resource.Style.Platform_V25_AppCompat_Light = global::CustomRenderer.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::Spotlight.Resource.Style.Platform_Widget_AppCompat_Spinner = global::CustomRenderer.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::Spotlight.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::CustomRenderer.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::Spotlight.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::CustomRenderer.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::Spotlight.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::CustomRenderer.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::Spotlight.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::CustomRenderer.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::Spotlight.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::CustomRenderer.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::Spotlight.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::CustomRenderer.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::Spotlight.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::CustomRenderer.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::Spotlight.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::CustomRenderer.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::Spotlight.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::CustomRenderer.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::Spotlight.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::CustomRenderer.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::Spotlight.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::CustomRenderer.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::Spotlight.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::CustomRenderer.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::Spotlight.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::CustomRenderer.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::Spotlight.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::CustomRenderer.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::Spotlight.Resource.Style.TextAppearance_AppCompat = global::CustomRenderer.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::Spotlight.Resource.Style.TextAppearance_AppCompat_Body1 = global::CustomRenderer.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::Spotlight.Resource.Style.TextAppearance_AppCompat_Body2 = global::CustomRenderer.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::Spotlight.Resource.Style.TextAppearance_AppCompat_Button = global::CustomRenderer.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::Spotlight.Resource.Style.TextAppearance_AppCompat_Caption = global::CustomRenderer.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::Spotlight.Resource.Style.TextAppearance_AppCompat_Display1 = global::CustomRenderer.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::Spotlight.Resource.Style.TextAppearance_AppCompat_Display2 = global::CustomRenderer.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::Spotlight.Resource.Style.TextAppearance_AppCompat_Display3 = global::CustomRenderer.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::Spotlight.Resource.Style.TextAppearance_AppCompat_Display4 = global::CustomRenderer.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::Spotlight.Resource.Style.TextAppearance_AppCompat_Headline = global::CustomRenderer.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::Spotlight.Resource.Style.TextAppearance_AppCompat_Inverse = global::CustomRenderer.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::Spotlight.Resource.Style.TextAppearance_AppCompat_Large = global::CustomRenderer.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::Spotlight.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::CustomRenderer.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::Spotlight.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::CustomRenderer.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::Spotlight.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::CustomRenderer.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::Spotlight.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::CustomRenderer.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Spotlight.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::CustomRenderer.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Spotlight.Resource.Style.TextAppearance_AppCompat_Medium = global::CustomRenderer.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::Spotlight.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::CustomRenderer.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::Spotlight.Resource.Style.TextAppearance_AppCompat_Menu = global::CustomRenderer.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::Spotlight.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::CustomRenderer.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Spotlight.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::CustomRenderer.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::Spotlight.Resource.Style.TextAppearance_AppCompat_Small = global::CustomRenderer.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::Spotlight.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::CustomRenderer.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::Spotlight.Resource.Style.TextAppearance_AppCompat_Subhead = global::CustomRenderer.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::Spotlight.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::CustomRenderer.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::Spotlight.Resource.Style.TextAppearance_AppCompat_Title = global::CustomRenderer.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::Spotlight.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::CustomRenderer.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::Spotlight.Resource.Style.TextAppearance_AppCompat_Tooltip = global::CustomRenderer.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::Spotlight.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::CustomRenderer.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Spotlight.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::CustomRenderer.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Spotlight.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::CustomRenderer.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Spotlight.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::CustomRenderer.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Spotlight.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::CustomRenderer.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Spotlight.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::CustomRenderer.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Spotlight.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::CustomRenderer.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::Spotlight.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::CustomRenderer.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Spotlight.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::CustomRenderer.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::Spotlight.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::CustomRenderer.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::Spotlight.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::CustomRenderer.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Spotlight.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::CustomRenderer.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Spotlight.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::CustomRenderer.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Spotlight.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::CustomRenderer.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Spotlight.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::CustomRenderer.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Spotlight.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::CustomRenderer.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Spotlight.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::CustomRenderer.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Spotlight.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::CustomRenderer.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::Spotlight.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::CustomRenderer.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Spotlight.Resource.Style.TextAppearance_Compat_Notification = global::CustomRenderer.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::Spotlight.Resource.Style.TextAppearance_Compat_Notification_Info = global::CustomRenderer.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::Spotlight.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::CustomRenderer.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
+			global::Spotlight.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::CustomRenderer.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::Spotlight.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::CustomRenderer.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
+			global::Spotlight.Resource.Style.TextAppearance_Compat_Notification_Media = global::CustomRenderer.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
+			global::Spotlight.Resource.Style.TextAppearance_Compat_Notification_Time = global::CustomRenderer.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::Spotlight.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::CustomRenderer.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
+			global::Spotlight.Resource.Style.TextAppearance_Compat_Notification_Title = global::CustomRenderer.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::Spotlight.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::CustomRenderer.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
+			global::Spotlight.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::CustomRenderer.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Spotlight.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::CustomRenderer.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Spotlight.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::CustomRenderer.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Spotlight.Resource.Style.Theme_AppCompat = global::CustomRenderer.Droid.Resource.Style.Theme_AppCompat;
+			global::Spotlight.Resource.Style.Theme_AppCompat_CompactMenu = global::CustomRenderer.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::Spotlight.Resource.Style.Theme_AppCompat_DayNight = global::CustomRenderer.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::Spotlight.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::CustomRenderer.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::Spotlight.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::CustomRenderer.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::Spotlight.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::CustomRenderer.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::Spotlight.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::CustomRenderer.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::Spotlight.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::CustomRenderer.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::Spotlight.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::CustomRenderer.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::Spotlight.Resource.Style.Theme_AppCompat_Dialog = global::CustomRenderer.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::Spotlight.Resource.Style.Theme_AppCompat_Dialog_Alert = global::CustomRenderer.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::Spotlight.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::CustomRenderer.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::Spotlight.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::CustomRenderer.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::Spotlight.Resource.Style.Theme_AppCompat_Light = global::CustomRenderer.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::Spotlight.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::CustomRenderer.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::Spotlight.Resource.Style.Theme_AppCompat_Light_Dialog = global::CustomRenderer.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::Spotlight.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::CustomRenderer.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::Spotlight.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::CustomRenderer.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Spotlight.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::CustomRenderer.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::Spotlight.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::CustomRenderer.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::Spotlight.Resource.Style.Theme_AppCompat_NoActionBar = global::CustomRenderer.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::Spotlight.Resource.Style.ThemeOverlay_AppCompat = global::CustomRenderer.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::Spotlight.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::CustomRenderer.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::Spotlight.Resource.Style.ThemeOverlay_AppCompat_Dark = global::CustomRenderer.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::Spotlight.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::CustomRenderer.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Spotlight.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::CustomRenderer.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::Spotlight.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::CustomRenderer.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Spotlight.Resource.Style.ThemeOverlay_AppCompat_Light = global::CustomRenderer.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Spotlight.Resource.Style.Widget_AppCompat_ActionBar = global::CustomRenderer.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::Spotlight.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::CustomRenderer.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::Spotlight.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::CustomRenderer.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::Spotlight.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::CustomRenderer.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::Spotlight.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::CustomRenderer.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::Spotlight.Resource.Style.Widget_AppCompat_ActionButton = global::CustomRenderer.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::Spotlight.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::CustomRenderer.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::Spotlight.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::CustomRenderer.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::Spotlight.Resource.Style.Widget_AppCompat_ActionMode = global::CustomRenderer.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::Spotlight.Resource.Style.Widget_AppCompat_ActivityChooserView = global::CustomRenderer.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::Spotlight.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::CustomRenderer.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::Spotlight.Resource.Style.Widget_AppCompat_Button = global::CustomRenderer.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::Spotlight.Resource.Style.Widget_AppCompat_Button_Borderless = global::CustomRenderer.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::Spotlight.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::CustomRenderer.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::Spotlight.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::CustomRenderer.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Spotlight.Resource.Style.Widget_AppCompat_Button_Colored = global::CustomRenderer.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::Spotlight.Resource.Style.Widget_AppCompat_Button_Small = global::CustomRenderer.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::Spotlight.Resource.Style.Widget_AppCompat_ButtonBar = global::CustomRenderer.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::Spotlight.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::CustomRenderer.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Spotlight.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::CustomRenderer.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::Spotlight.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::CustomRenderer.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::Spotlight.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::CustomRenderer.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::Spotlight.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::CustomRenderer.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::Spotlight.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::CustomRenderer.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::Spotlight.Resource.Style.Widget_AppCompat_EditText = global::CustomRenderer.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::Spotlight.Resource.Style.Widget_AppCompat_ImageButton = global::CustomRenderer.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::Spotlight.Resource.Style.Widget_AppCompat_Light_ActionBar = global::CustomRenderer.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::Spotlight.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::CustomRenderer.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::Spotlight.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::CustomRenderer.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::Spotlight.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::CustomRenderer.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Spotlight.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::CustomRenderer.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::Spotlight.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::CustomRenderer.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::Spotlight.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::CustomRenderer.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Spotlight.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::CustomRenderer.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::Spotlight.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::CustomRenderer.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::Spotlight.Resource.Style.Widget_AppCompat_Light_ActionButton = global::CustomRenderer.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::Spotlight.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::CustomRenderer.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::Spotlight.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::CustomRenderer.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::Spotlight.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::CustomRenderer.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::Spotlight.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::CustomRenderer.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::Spotlight.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::CustomRenderer.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::Spotlight.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::CustomRenderer.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::Spotlight.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::CustomRenderer.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::Spotlight.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::CustomRenderer.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::Spotlight.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::CustomRenderer.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::Spotlight.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::CustomRenderer.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Spotlight.Resource.Style.Widget_AppCompat_Light_SearchView = global::CustomRenderer.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::Spotlight.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::CustomRenderer.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::Spotlight.Resource.Style.Widget_AppCompat_ListMenuView = global::CustomRenderer.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::Spotlight.Resource.Style.Widget_AppCompat_ListPopupWindow = global::CustomRenderer.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::Spotlight.Resource.Style.Widget_AppCompat_ListView = global::CustomRenderer.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::Spotlight.Resource.Style.Widget_AppCompat_ListView_DropDown = global::CustomRenderer.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::Spotlight.Resource.Style.Widget_AppCompat_ListView_Menu = global::CustomRenderer.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::Spotlight.Resource.Style.Widget_AppCompat_PopupMenu = global::CustomRenderer.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::Spotlight.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::CustomRenderer.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::Spotlight.Resource.Style.Widget_AppCompat_PopupWindow = global::CustomRenderer.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::Spotlight.Resource.Style.Widget_AppCompat_ProgressBar = global::CustomRenderer.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::Spotlight.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::CustomRenderer.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::Spotlight.Resource.Style.Widget_AppCompat_RatingBar = global::CustomRenderer.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::Spotlight.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::CustomRenderer.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::Spotlight.Resource.Style.Widget_AppCompat_RatingBar_Small = global::CustomRenderer.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::Spotlight.Resource.Style.Widget_AppCompat_SearchView = global::CustomRenderer.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::Spotlight.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::CustomRenderer.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::Spotlight.Resource.Style.Widget_AppCompat_SeekBar = global::CustomRenderer.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::Spotlight.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::CustomRenderer.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::Spotlight.Resource.Style.Widget_AppCompat_Spinner = global::CustomRenderer.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::Spotlight.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::CustomRenderer.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::Spotlight.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::CustomRenderer.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::Spotlight.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::CustomRenderer.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::Spotlight.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::CustomRenderer.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::Spotlight.Resource.Style.Widget_AppCompat_Toolbar = global::CustomRenderer.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::Spotlight.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::CustomRenderer.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Spotlight.Resource.Style.Widget_Compat_NotificationActionContainer = global::CustomRenderer.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::Spotlight.Resource.Style.Widget_Compat_NotificationActionText = global::CustomRenderer.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::Spotlight.Resource.Styleable.ActionBar = global::CustomRenderer.Droid.Resource.Styleable.ActionBar;
+			global::Spotlight.Resource.Styleable.ActionBar_background = global::CustomRenderer.Droid.Resource.Styleable.ActionBar_background;
+			global::Spotlight.Resource.Styleable.ActionBar_backgroundSplit = global::CustomRenderer.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::Spotlight.Resource.Styleable.ActionBar_backgroundStacked = global::CustomRenderer.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::Spotlight.Resource.Styleable.ActionBar_contentInsetEnd = global::CustomRenderer.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::Spotlight.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::CustomRenderer.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::Spotlight.Resource.Styleable.ActionBar_contentInsetLeft = global::CustomRenderer.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::Spotlight.Resource.Styleable.ActionBar_contentInsetRight = global::CustomRenderer.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::Spotlight.Resource.Styleable.ActionBar_contentInsetStart = global::CustomRenderer.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::Spotlight.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::CustomRenderer.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::Spotlight.Resource.Styleable.ActionBar_customNavigationLayout = global::CustomRenderer.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::Spotlight.Resource.Styleable.ActionBar_displayOptions = global::CustomRenderer.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::Spotlight.Resource.Styleable.ActionBar_divider = global::CustomRenderer.Droid.Resource.Styleable.ActionBar_divider;
+			global::Spotlight.Resource.Styleable.ActionBar_elevation = global::CustomRenderer.Droid.Resource.Styleable.ActionBar_elevation;
+			global::Spotlight.Resource.Styleable.ActionBar_height = global::CustomRenderer.Droid.Resource.Styleable.ActionBar_height;
+			global::Spotlight.Resource.Styleable.ActionBar_hideOnContentScroll = global::CustomRenderer.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::Spotlight.Resource.Styleable.ActionBar_homeAsUpIndicator = global::CustomRenderer.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::Spotlight.Resource.Styleable.ActionBar_homeLayout = global::CustomRenderer.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::Spotlight.Resource.Styleable.ActionBar_icon = global::CustomRenderer.Droid.Resource.Styleable.ActionBar_icon;
+			global::Spotlight.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::CustomRenderer.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::Spotlight.Resource.Styleable.ActionBar_itemPadding = global::CustomRenderer.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::Spotlight.Resource.Styleable.ActionBar_logo = global::CustomRenderer.Droid.Resource.Styleable.ActionBar_logo;
+			global::Spotlight.Resource.Styleable.ActionBar_navigationMode = global::CustomRenderer.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::Spotlight.Resource.Styleable.ActionBar_popupTheme = global::CustomRenderer.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::Spotlight.Resource.Styleable.ActionBar_progressBarPadding = global::CustomRenderer.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::Spotlight.Resource.Styleable.ActionBar_progressBarStyle = global::CustomRenderer.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::Spotlight.Resource.Styleable.ActionBar_subtitle = global::CustomRenderer.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::Spotlight.Resource.Styleable.ActionBar_subtitleTextStyle = global::CustomRenderer.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::Spotlight.Resource.Styleable.ActionBar_title = global::CustomRenderer.Droid.Resource.Styleable.ActionBar_title;
+			global::Spotlight.Resource.Styleable.ActionBar_titleTextStyle = global::CustomRenderer.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::Spotlight.Resource.Styleable.ActionBarLayout = global::CustomRenderer.Droid.Resource.Styleable.ActionBarLayout;
+			global::Spotlight.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::CustomRenderer.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::Spotlight.Resource.Styleable.ActionMenuItemView = global::CustomRenderer.Droid.Resource.Styleable.ActionMenuItemView;
+			global::Spotlight.Resource.Styleable.ActionMenuItemView_android_minWidth = global::CustomRenderer.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::Spotlight.Resource.Styleable.ActionMenuView = global::CustomRenderer.Droid.Resource.Styleable.ActionMenuView;
+			global::Spotlight.Resource.Styleable.ActionMode = global::CustomRenderer.Droid.Resource.Styleable.ActionMode;
+			global::Spotlight.Resource.Styleable.ActionMode_background = global::CustomRenderer.Droid.Resource.Styleable.ActionMode_background;
+			global::Spotlight.Resource.Styleable.ActionMode_backgroundSplit = global::CustomRenderer.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::Spotlight.Resource.Styleable.ActionMode_closeItemLayout = global::CustomRenderer.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::Spotlight.Resource.Styleable.ActionMode_height = global::CustomRenderer.Droid.Resource.Styleable.ActionMode_height;
+			global::Spotlight.Resource.Styleable.ActionMode_subtitleTextStyle = global::CustomRenderer.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::Spotlight.Resource.Styleable.ActionMode_titleTextStyle = global::CustomRenderer.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::Spotlight.Resource.Styleable.ActivityChooserView = global::CustomRenderer.Droid.Resource.Styleable.ActivityChooserView;
+			global::Spotlight.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::CustomRenderer.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::Spotlight.Resource.Styleable.ActivityChooserView_initialActivityCount = global::CustomRenderer.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::Spotlight.Resource.Styleable.AlertDialog = global::CustomRenderer.Droid.Resource.Styleable.AlertDialog;
+			global::Spotlight.Resource.Styleable.AlertDialog_android_layout = global::CustomRenderer.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::Spotlight.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::CustomRenderer.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::Spotlight.Resource.Styleable.AlertDialog_listItemLayout = global::CustomRenderer.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::Spotlight.Resource.Styleable.AlertDialog_listLayout = global::CustomRenderer.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::Spotlight.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::CustomRenderer.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::Spotlight.Resource.Styleable.AlertDialog_showTitle = global::CustomRenderer.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::Spotlight.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::CustomRenderer.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::Spotlight.Resource.Styleable.AppCompatImageView = global::CustomRenderer.Droid.Resource.Styleable.AppCompatImageView;
+			global::Spotlight.Resource.Styleable.AppCompatImageView_android_src = global::CustomRenderer.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::Spotlight.Resource.Styleable.AppCompatImageView_srcCompat = global::CustomRenderer.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::Spotlight.Resource.Styleable.AppCompatImageView_tint = global::CustomRenderer.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::Spotlight.Resource.Styleable.AppCompatImageView_tintMode = global::CustomRenderer.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::Spotlight.Resource.Styleable.AppCompatSeekBar = global::CustomRenderer.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::Spotlight.Resource.Styleable.AppCompatSeekBar_android_thumb = global::CustomRenderer.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::Spotlight.Resource.Styleable.AppCompatSeekBar_tickMark = global::CustomRenderer.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::Spotlight.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::CustomRenderer.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::Spotlight.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::CustomRenderer.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::Spotlight.Resource.Styleable.AppCompatTextHelper = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::Spotlight.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::Spotlight.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::Spotlight.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::Spotlight.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::Spotlight.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::Spotlight.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::Spotlight.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::Spotlight.Resource.Styleable.AppCompatTextView = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTextView;
+			global::Spotlight.Resource.Styleable.AppCompatTextView_android_textAppearance = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::Spotlight.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::Spotlight.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::Spotlight.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::Spotlight.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::Spotlight.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::Spotlight.Resource.Styleable.AppCompatTextView_fontFamily = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::Spotlight.Resource.Styleable.AppCompatTextView_textAllCaps = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::Spotlight.Resource.Styleable.AppCompatTheme = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_actionBarDivider = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_actionBarSize = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_actionBarStyle = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_actionBarTheme = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_actionModeBackground = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_actionModeStyle = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_buttonStyle = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_checkboxStyle = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_colorAccent = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_colorControlActivated = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_colorControlNormal = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_colorError = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_colorError;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_colorPrimary = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_controlBackground = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_dialogTheme = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_dividerVertical = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_editTextBackground = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_editTextColor = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_editTextStyle = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_panelBackground = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_searchViewStyle = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_seekBarStyle = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_spinnerStyle = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_switchStyle = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_toolbarStyle = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_windowActionBar = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::Spotlight.Resource.Styleable.AppCompatTheme_windowNoTitle = global::CustomRenderer.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::Spotlight.Resource.Styleable.ButtonBarLayout = global::CustomRenderer.Droid.Resource.Styleable.ButtonBarLayout;
+			global::Spotlight.Resource.Styleable.ButtonBarLayout_allowStacking = global::CustomRenderer.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::Spotlight.Resource.Styleable.ColorStateListItem = global::CustomRenderer.Droid.Resource.Styleable.ColorStateListItem;
+			global::Spotlight.Resource.Styleable.ColorStateListItem_alpha = global::CustomRenderer.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::Spotlight.Resource.Styleable.ColorStateListItem_android_alpha = global::CustomRenderer.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::Spotlight.Resource.Styleable.ColorStateListItem_android_color = global::CustomRenderer.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::Spotlight.Resource.Styleable.CompoundButton = global::CustomRenderer.Droid.Resource.Styleable.CompoundButton;
+			global::Spotlight.Resource.Styleable.CompoundButton_android_button = global::CustomRenderer.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::Spotlight.Resource.Styleable.CompoundButton_buttonTint = global::CustomRenderer.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::Spotlight.Resource.Styleable.CompoundButton_buttonTintMode = global::CustomRenderer.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::Spotlight.Resource.Styleable.DrawerArrowToggle = global::CustomRenderer.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::Spotlight.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::CustomRenderer.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::Spotlight.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::CustomRenderer.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::Spotlight.Resource.Styleable.DrawerArrowToggle_barLength = global::CustomRenderer.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::Spotlight.Resource.Styleable.DrawerArrowToggle_color = global::CustomRenderer.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::Spotlight.Resource.Styleable.DrawerArrowToggle_drawableSize = global::CustomRenderer.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::Spotlight.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::CustomRenderer.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::Spotlight.Resource.Styleable.DrawerArrowToggle_spinBars = global::CustomRenderer.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::Spotlight.Resource.Styleable.DrawerArrowToggle_thickness = global::CustomRenderer.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::Spotlight.Resource.Styleable.FontFamily = global::CustomRenderer.Droid.Resource.Styleable.FontFamily;
+			global::Spotlight.Resource.Styleable.FontFamily_fontProviderAuthority = global::CustomRenderer.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::Spotlight.Resource.Styleable.FontFamily_fontProviderCerts = global::CustomRenderer.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::Spotlight.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::CustomRenderer.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::Spotlight.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::CustomRenderer.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::Spotlight.Resource.Styleable.FontFamily_fontProviderPackage = global::CustomRenderer.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::Spotlight.Resource.Styleable.FontFamily_fontProviderQuery = global::CustomRenderer.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::Spotlight.Resource.Styleable.FontFamilyFont = global::CustomRenderer.Droid.Resource.Styleable.FontFamilyFont;
+			global::Spotlight.Resource.Styleable.FontFamilyFont_android_font = global::CustomRenderer.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::Spotlight.Resource.Styleable.FontFamilyFont_android_fontStyle = global::CustomRenderer.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::Spotlight.Resource.Styleable.FontFamilyFont_android_fontWeight = global::CustomRenderer.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::Spotlight.Resource.Styleable.FontFamilyFont_font = global::CustomRenderer.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::Spotlight.Resource.Styleable.FontFamilyFont_fontStyle = global::CustomRenderer.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::Spotlight.Resource.Styleable.FontFamilyFont_fontWeight = global::CustomRenderer.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::Spotlight.Resource.Styleable.LinearLayoutCompat = global::CustomRenderer.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::Spotlight.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::CustomRenderer.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::Spotlight.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::CustomRenderer.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::Spotlight.Resource.Styleable.LinearLayoutCompat_android_gravity = global::CustomRenderer.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::Spotlight.Resource.Styleable.LinearLayoutCompat_android_orientation = global::CustomRenderer.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::Spotlight.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::CustomRenderer.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::Spotlight.Resource.Styleable.LinearLayoutCompat_divider = global::CustomRenderer.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::Spotlight.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::CustomRenderer.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::Spotlight.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::CustomRenderer.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::Spotlight.Resource.Styleable.LinearLayoutCompat_showDividers = global::CustomRenderer.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::Spotlight.Resource.Styleable.LinearLayoutCompat_Layout = global::CustomRenderer.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::Spotlight.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::CustomRenderer.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::Spotlight.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::CustomRenderer.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::Spotlight.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::CustomRenderer.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::Spotlight.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::CustomRenderer.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::Spotlight.Resource.Styleable.ListPopupWindow = global::CustomRenderer.Droid.Resource.Styleable.ListPopupWindow;
+			global::Spotlight.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::CustomRenderer.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::Spotlight.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::CustomRenderer.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::Spotlight.Resource.Styleable.MenuGroup = global::CustomRenderer.Droid.Resource.Styleable.MenuGroup;
+			global::Spotlight.Resource.Styleable.MenuGroup_android_checkableBehavior = global::CustomRenderer.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::Spotlight.Resource.Styleable.MenuGroup_android_enabled = global::CustomRenderer.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::Spotlight.Resource.Styleable.MenuGroup_android_id = global::CustomRenderer.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::Spotlight.Resource.Styleable.MenuGroup_android_menuCategory = global::CustomRenderer.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::Spotlight.Resource.Styleable.MenuGroup_android_orderInCategory = global::CustomRenderer.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::Spotlight.Resource.Styleable.MenuGroup_android_visible = global::CustomRenderer.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::Spotlight.Resource.Styleable.MenuItem = global::CustomRenderer.Droid.Resource.Styleable.MenuItem;
+			global::Spotlight.Resource.Styleable.MenuItem_actionLayout = global::CustomRenderer.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::Spotlight.Resource.Styleable.MenuItem_actionProviderClass = global::CustomRenderer.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::Spotlight.Resource.Styleable.MenuItem_actionViewClass = global::CustomRenderer.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::Spotlight.Resource.Styleable.MenuItem_alphabeticModifiers = global::CustomRenderer.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::Spotlight.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::CustomRenderer.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::Spotlight.Resource.Styleable.MenuItem_android_checkable = global::CustomRenderer.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::Spotlight.Resource.Styleable.MenuItem_android_checked = global::CustomRenderer.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::Spotlight.Resource.Styleable.MenuItem_android_enabled = global::CustomRenderer.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::Spotlight.Resource.Styleable.MenuItem_android_icon = global::CustomRenderer.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::Spotlight.Resource.Styleable.MenuItem_android_id = global::CustomRenderer.Droid.Resource.Styleable.MenuItem_android_id;
+			global::Spotlight.Resource.Styleable.MenuItem_android_menuCategory = global::CustomRenderer.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::Spotlight.Resource.Styleable.MenuItem_android_numericShortcut = global::CustomRenderer.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::Spotlight.Resource.Styleable.MenuItem_android_onClick = global::CustomRenderer.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::Spotlight.Resource.Styleable.MenuItem_android_orderInCategory = global::CustomRenderer.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::Spotlight.Resource.Styleable.MenuItem_android_title = global::CustomRenderer.Droid.Resource.Styleable.MenuItem_android_title;
+			global::Spotlight.Resource.Styleable.MenuItem_android_titleCondensed = global::CustomRenderer.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::Spotlight.Resource.Styleable.MenuItem_android_visible = global::CustomRenderer.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::Spotlight.Resource.Styleable.MenuItem_contentDescription = global::CustomRenderer.Droid.Resource.Styleable.MenuItem_contentDescription;
+			global::Spotlight.Resource.Styleable.MenuItem_iconTint = global::CustomRenderer.Droid.Resource.Styleable.MenuItem_iconTint;
+			global::Spotlight.Resource.Styleable.MenuItem_iconTintMode = global::CustomRenderer.Droid.Resource.Styleable.MenuItem_iconTintMode;
+			global::Spotlight.Resource.Styleable.MenuItem_numericModifiers = global::CustomRenderer.Droid.Resource.Styleable.MenuItem_numericModifiers;
+			global::Spotlight.Resource.Styleable.MenuItem_showAsAction = global::CustomRenderer.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::Spotlight.Resource.Styleable.MenuItem_tooltipText = global::CustomRenderer.Droid.Resource.Styleable.MenuItem_tooltipText;
+			global::Spotlight.Resource.Styleable.MenuView = global::CustomRenderer.Droid.Resource.Styleable.MenuView;
+			global::Spotlight.Resource.Styleable.MenuView_android_headerBackground = global::CustomRenderer.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::Spotlight.Resource.Styleable.MenuView_android_horizontalDivider = global::CustomRenderer.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::Spotlight.Resource.Styleable.MenuView_android_itemBackground = global::CustomRenderer.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::Spotlight.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::CustomRenderer.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::Spotlight.Resource.Styleable.MenuView_android_itemTextAppearance = global::CustomRenderer.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::Spotlight.Resource.Styleable.MenuView_android_verticalDivider = global::CustomRenderer.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::Spotlight.Resource.Styleable.MenuView_android_windowAnimationStyle = global::CustomRenderer.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::Spotlight.Resource.Styleable.MenuView_preserveIconSpacing = global::CustomRenderer.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::Spotlight.Resource.Styleable.MenuView_subMenuArrow = global::CustomRenderer.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::Spotlight.Resource.Styleable.PopupWindow = global::CustomRenderer.Droid.Resource.Styleable.PopupWindow;
+			global::Spotlight.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::CustomRenderer.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::Spotlight.Resource.Styleable.PopupWindow_android_popupBackground = global::CustomRenderer.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::Spotlight.Resource.Styleable.PopupWindow_overlapAnchor = global::CustomRenderer.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Spotlight.Resource.Styleable.PopupWindowBackgroundState = global::CustomRenderer.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::Spotlight.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::CustomRenderer.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::Spotlight.Resource.Styleable.RecycleListView = global::CustomRenderer.Droid.Resource.Styleable.RecycleListView;
+			global::Spotlight.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::CustomRenderer.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::Spotlight.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::CustomRenderer.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::Spotlight.Resource.Styleable.SearchView = global::CustomRenderer.Droid.Resource.Styleable.SearchView;
+			global::Spotlight.Resource.Styleable.SearchView_android_focusable = global::CustomRenderer.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::Spotlight.Resource.Styleable.SearchView_android_imeOptions = global::CustomRenderer.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::Spotlight.Resource.Styleable.SearchView_android_inputType = global::CustomRenderer.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::Spotlight.Resource.Styleable.SearchView_android_maxWidth = global::CustomRenderer.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::Spotlight.Resource.Styleable.SearchView_closeIcon = global::CustomRenderer.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::Spotlight.Resource.Styleable.SearchView_commitIcon = global::CustomRenderer.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::Spotlight.Resource.Styleable.SearchView_defaultQueryHint = global::CustomRenderer.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::Spotlight.Resource.Styleable.SearchView_goIcon = global::CustomRenderer.Droid.Resource.Styleable.SearchView_goIcon;
+			global::Spotlight.Resource.Styleable.SearchView_iconifiedByDefault = global::CustomRenderer.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::Spotlight.Resource.Styleable.SearchView_layout = global::CustomRenderer.Droid.Resource.Styleable.SearchView_layout;
+			global::Spotlight.Resource.Styleable.SearchView_queryBackground = global::CustomRenderer.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::Spotlight.Resource.Styleable.SearchView_queryHint = global::CustomRenderer.Droid.Resource.Styleable.SearchView_queryHint;
+			global::Spotlight.Resource.Styleable.SearchView_searchHintIcon = global::CustomRenderer.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::Spotlight.Resource.Styleable.SearchView_searchIcon = global::CustomRenderer.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::Spotlight.Resource.Styleable.SearchView_submitBackground = global::CustomRenderer.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::Spotlight.Resource.Styleable.SearchView_suggestionRowLayout = global::CustomRenderer.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::Spotlight.Resource.Styleable.SearchView_voiceIcon = global::CustomRenderer.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::Spotlight.Resource.Styleable.Spinner = global::CustomRenderer.Droid.Resource.Styleable.Spinner;
+			global::Spotlight.Resource.Styleable.Spinner_android_dropDownWidth = global::CustomRenderer.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::Spotlight.Resource.Styleable.Spinner_android_entries = global::CustomRenderer.Droid.Resource.Styleable.Spinner_android_entries;
+			global::Spotlight.Resource.Styleable.Spinner_android_popupBackground = global::CustomRenderer.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::Spotlight.Resource.Styleable.Spinner_android_prompt = global::CustomRenderer.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::Spotlight.Resource.Styleable.Spinner_popupTheme = global::CustomRenderer.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::Spotlight.Resource.Styleable.SwitchCompat = global::CustomRenderer.Droid.Resource.Styleable.SwitchCompat;
+			global::Spotlight.Resource.Styleable.SwitchCompat_android_textOff = global::CustomRenderer.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::Spotlight.Resource.Styleable.SwitchCompat_android_textOn = global::CustomRenderer.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::Spotlight.Resource.Styleable.SwitchCompat_android_thumb = global::CustomRenderer.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::Spotlight.Resource.Styleable.SwitchCompat_showText = global::CustomRenderer.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::Spotlight.Resource.Styleable.SwitchCompat_splitTrack = global::CustomRenderer.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::Spotlight.Resource.Styleable.SwitchCompat_switchMinWidth = global::CustomRenderer.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::Spotlight.Resource.Styleable.SwitchCompat_switchPadding = global::CustomRenderer.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::Spotlight.Resource.Styleable.SwitchCompat_switchTextAppearance = global::CustomRenderer.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::Spotlight.Resource.Styleable.SwitchCompat_thumbTextPadding = global::CustomRenderer.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::Spotlight.Resource.Styleable.SwitchCompat_thumbTint = global::CustomRenderer.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::Spotlight.Resource.Styleable.SwitchCompat_thumbTintMode = global::CustomRenderer.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::Spotlight.Resource.Styleable.SwitchCompat_track = global::CustomRenderer.Droid.Resource.Styleable.SwitchCompat_track;
+			global::Spotlight.Resource.Styleable.SwitchCompat_trackTint = global::CustomRenderer.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::Spotlight.Resource.Styleable.SwitchCompat_trackTintMode = global::CustomRenderer.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::Spotlight.Resource.Styleable.TextAppearance = global::CustomRenderer.Droid.Resource.Styleable.TextAppearance;
+			global::Spotlight.Resource.Styleable.TextAppearance_android_fontFamily = global::CustomRenderer.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::Spotlight.Resource.Styleable.TextAppearance_android_shadowColor = global::CustomRenderer.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::Spotlight.Resource.Styleable.TextAppearance_android_shadowDx = global::CustomRenderer.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::Spotlight.Resource.Styleable.TextAppearance_android_shadowDy = global::CustomRenderer.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::Spotlight.Resource.Styleable.TextAppearance_android_shadowRadius = global::CustomRenderer.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::Spotlight.Resource.Styleable.TextAppearance_android_textColor = global::CustomRenderer.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::Spotlight.Resource.Styleable.TextAppearance_android_textColorHint = global::CustomRenderer.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::Spotlight.Resource.Styleable.TextAppearance_android_textColorLink = global::CustomRenderer.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::Spotlight.Resource.Styleable.TextAppearance_android_textSize = global::CustomRenderer.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::Spotlight.Resource.Styleable.TextAppearance_android_textStyle = global::CustomRenderer.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::Spotlight.Resource.Styleable.TextAppearance_android_typeface = global::CustomRenderer.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::Spotlight.Resource.Styleable.TextAppearance_fontFamily = global::CustomRenderer.Droid.Resource.Styleable.TextAppearance_fontFamily;
+			global::Spotlight.Resource.Styleable.TextAppearance_textAllCaps = global::CustomRenderer.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::Spotlight.Resource.Styleable.Toolbar = global::CustomRenderer.Droid.Resource.Styleable.Toolbar;
+			global::Spotlight.Resource.Styleable.Toolbar_android_gravity = global::CustomRenderer.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::Spotlight.Resource.Styleable.Toolbar_android_minHeight = global::CustomRenderer.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::Spotlight.Resource.Styleable.Toolbar_buttonGravity = global::CustomRenderer.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::Spotlight.Resource.Styleable.Toolbar_collapseContentDescription = global::CustomRenderer.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::Spotlight.Resource.Styleable.Toolbar_collapseIcon = global::CustomRenderer.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::Spotlight.Resource.Styleable.Toolbar_contentInsetEnd = global::CustomRenderer.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::Spotlight.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::CustomRenderer.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::Spotlight.Resource.Styleable.Toolbar_contentInsetLeft = global::CustomRenderer.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::Spotlight.Resource.Styleable.Toolbar_contentInsetRight = global::CustomRenderer.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::Spotlight.Resource.Styleable.Toolbar_contentInsetStart = global::CustomRenderer.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::Spotlight.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::CustomRenderer.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::Spotlight.Resource.Styleable.Toolbar_logo = global::CustomRenderer.Droid.Resource.Styleable.Toolbar_logo;
+			global::Spotlight.Resource.Styleable.Toolbar_logoDescription = global::CustomRenderer.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::Spotlight.Resource.Styleable.Toolbar_maxButtonHeight = global::CustomRenderer.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::Spotlight.Resource.Styleable.Toolbar_navigationContentDescription = global::CustomRenderer.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::Spotlight.Resource.Styleable.Toolbar_navigationIcon = global::CustomRenderer.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::Spotlight.Resource.Styleable.Toolbar_popupTheme = global::CustomRenderer.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::Spotlight.Resource.Styleable.Toolbar_subtitle = global::CustomRenderer.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::Spotlight.Resource.Styleable.Toolbar_subtitleTextAppearance = global::CustomRenderer.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::Spotlight.Resource.Styleable.Toolbar_subtitleTextColor = global::CustomRenderer.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::Spotlight.Resource.Styleable.Toolbar_title = global::CustomRenderer.Droid.Resource.Styleable.Toolbar_title;
+			global::Spotlight.Resource.Styleable.Toolbar_titleMargin = global::CustomRenderer.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::Spotlight.Resource.Styleable.Toolbar_titleMarginBottom = global::CustomRenderer.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::Spotlight.Resource.Styleable.Toolbar_titleMarginEnd = global::CustomRenderer.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::Spotlight.Resource.Styleable.Toolbar_titleMarginStart = global::CustomRenderer.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::Spotlight.Resource.Styleable.Toolbar_titleMarginTop = global::CustomRenderer.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::Spotlight.Resource.Styleable.Toolbar_titleMargins = global::CustomRenderer.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::Spotlight.Resource.Styleable.Toolbar_titleTextAppearance = global::CustomRenderer.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::Spotlight.Resource.Styleable.Toolbar_titleTextColor = global::CustomRenderer.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::Spotlight.Resource.Styleable.View = global::CustomRenderer.Droid.Resource.Styleable.View;
+			global::Spotlight.Resource.Styleable.View_android_focusable = global::CustomRenderer.Droid.Resource.Styleable.View_android_focusable;
+			global::Spotlight.Resource.Styleable.View_android_theme = global::CustomRenderer.Droid.Resource.Styleable.View_android_theme;
+			global::Spotlight.Resource.Styleable.View_paddingEnd = global::CustomRenderer.Droid.Resource.Styleable.View_paddingEnd;
+			global::Spotlight.Resource.Styleable.View_paddingStart = global::CustomRenderer.Droid.Resource.Styleable.View_paddingStart;
+			global::Spotlight.Resource.Styleable.View_theme = global::CustomRenderer.Droid.Resource.Styleable.View_theme;
+			global::Spotlight.Resource.Styleable.ViewBackgroundHelper = global::CustomRenderer.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::Spotlight.Resource.Styleable.ViewBackgroundHelper_android_background = global::CustomRenderer.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::Spotlight.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::CustomRenderer.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::Spotlight.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::CustomRenderer.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::Spotlight.Resource.Styleable.ViewStubCompat = global::CustomRenderer.Droid.Resource.Styleable.ViewStubCompat;
+			global::Spotlight.Resource.Styleable.ViewStubCompat_android_id = global::CustomRenderer.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::Spotlight.Resource.Styleable.ViewStubCompat_android_inflatedId = global::CustomRenderer.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::Spotlight.Resource.Styleable.ViewStubCompat_android_layout = global::CustomRenderer.Droid.Resource.Styleable.ViewStubCompat_android_layout;
 			global::Xamarin.Essentials.Resource.Attribute.alpha = global::CustomRenderer.Droid.Resource.Attribute.alpha;
 			global::Xamarin.Essentials.Resource.Attribute.font = global::CustomRenderer.Droid.Resource.Attribute.font;
 			global::Xamarin.Essentials.Resource.Attribute.fontProviderAuthority = global::CustomRenderer.Droid.Resource.Attribute.fontProviderAuthority;
@@ -13027,79 +14522,82 @@ namespace CustomRenderer.Droid
 		{
 			
 			// aapt resource value: 0x7F020000
-			public const int design_appbar_state_list_animator = 2130837504;
+			public const int arc_animator = 2130837504;
 			
 			// aapt resource value: 0x7F020001
-			public const int design_fab_hide_motion_spec = 2130837505;
+			public const int design_appbar_state_list_animator = 2130837505;
 			
 			// aapt resource value: 0x7F020002
-			public const int design_fab_show_motion_spec = 2130837506;
+			public const int design_fab_hide_motion_spec = 2130837506;
 			
 			// aapt resource value: 0x7F020003
-			public const int fragment_close_enter = 2130837507;
+			public const int design_fab_show_motion_spec = 2130837507;
 			
 			// aapt resource value: 0x7F020004
-			public const int fragment_close_exit = 2130837508;
+			public const int fragment_close_enter = 2130837508;
 			
 			// aapt resource value: 0x7F020005
-			public const int fragment_fade_enter = 2130837509;
+			public const int fragment_close_exit = 2130837509;
 			
 			// aapt resource value: 0x7F020006
-			public const int fragment_fade_exit = 2130837510;
+			public const int fragment_fade_enter = 2130837510;
 			
 			// aapt resource value: 0x7F020007
-			public const int fragment_open_enter = 2130837511;
+			public const int fragment_fade_exit = 2130837511;
 			
 			// aapt resource value: 0x7F020008
-			public const int fragment_open_exit = 2130837512;
+			public const int fragment_open_enter = 2130837512;
 			
 			// aapt resource value: 0x7F020009
-			public const int mtrl_btn_state_list_anim = 2130837513;
+			public const int fragment_open_exit = 2130837513;
 			
 			// aapt resource value: 0x7F02000A
-			public const int mtrl_btn_unelevated_state_list_anim = 2130837514;
+			public const int mtrl_btn_state_list_anim = 2130837514;
 			
 			// aapt resource value: 0x7F02000B
-			public const int mtrl_card_state_list_anim = 2130837515;
+			public const int mtrl_btn_unelevated_state_list_anim = 2130837515;
 			
 			// aapt resource value: 0x7F02000C
-			public const int mtrl_chip_state_list_anim = 2130837516;
+			public const int mtrl_card_state_list_anim = 2130837516;
 			
 			// aapt resource value: 0x7F02000D
-			public const int mtrl_extended_fab_change_size_motion_spec = 2130837517;
+			public const int mtrl_chip_state_list_anim = 2130837517;
 			
 			// aapt resource value: 0x7F02000E
-			public const int mtrl_extended_fab_hide_motion_spec = 2130837518;
+			public const int mtrl_extended_fab_change_size_motion_spec = 2130837518;
 			
 			// aapt resource value: 0x7F02000F
-			public const int mtrl_extended_fab_show_motion_spec = 2130837519;
+			public const int mtrl_extended_fab_hide_motion_spec = 2130837519;
 			
 			// aapt resource value: 0x7F020010
-			public const int mtrl_extended_fab_state_list_animator = 2130837520;
+			public const int mtrl_extended_fab_show_motion_spec = 2130837520;
 			
 			// aapt resource value: 0x7F020011
-			public const int mtrl_fab_hide_motion_spec = 2130837521;
+			public const int mtrl_extended_fab_state_list_animator = 2130837521;
 			
 			// aapt resource value: 0x7F020012
-			public const int mtrl_fab_show_motion_spec = 2130837522;
+			public const int mtrl_fab_hide_motion_spec = 2130837522;
 			
 			// aapt resource value: 0x7F020013
-			public const int mtrl_fab_transformation_sheet_collapse_spec = 2130837523;
+			public const int mtrl_fab_show_motion_spec = 2130837523;
 			
 			// aapt resource value: 0x7F020014
-			public const int mtrl_fab_transformation_sheet_expand_spec = 2130837524;
+			public const int mtrl_fab_transformation_sheet_collapse_spec = 2130837524;
 			
 			// aapt resource value: 0x7F020015
-			public const int nav_default_enter_anim = 2130837525;
+			public const int mtrl_fab_transformation_sheet_expand_spec = 2130837525;
 			
 			// aapt resource value: 0x7F020016
-			public const int nav_default_exit_anim = 2130837526;
+			public const int nav_default_enter_anim = 2130837526;
 			
 			// aapt resource value: 0x7F020017
-			public const int nav_default_pop_enter_anim = 2130837527;
+			public const int nav_default_exit_anim = 2130837527;
 			
 			// aapt resource value: 0x7F020018
-			public const int nav_default_pop_exit_anim = 2130837528;
+			public const int nav_default_pop_enter_anim = 2130837528;
+			
+			// aapt resource value: 0x7F020019
+			public const int nav_default_pop_exit_anim = 2130837529;
 			
 			static Animator()
 			{
@@ -17376,205 +18874,211 @@ namespace CustomRenderer.Droid
 			public const int avd_show_password = 2131165277;
 			
 			// aapt resource value: 0x7F07005E
-			public const int background_halfcircle = 2131165278;
+			public const int avd_spotlight_arc = 2131165278;
 			
 			// aapt resource value: 0x7F07005F
-			public const int btn_checkbox_checked_mtrl = 2131165279;
+			public const int background_halfcircle = 2131165279;
 			
 			// aapt resource value: 0x7F070060
-			public const int btn_checkbox_checked_to_unchecked_mtrl_animation = 2131165280;
+			public const int btn_checkbox_checked_mtrl = 2131165280;
 			
 			// aapt resource value: 0x7F070061
-			public const int btn_checkbox_unchecked_mtrl = 2131165281;
+			public const int btn_checkbox_checked_to_unchecked_mtrl_animation = 2131165281;
 			
 			// aapt resource value: 0x7F070062
-			public const int btn_checkbox_unchecked_to_checked_mtrl_animation = 2131165282;
+			public const int btn_checkbox_unchecked_mtrl = 2131165282;
 			
 			// aapt resource value: 0x7F070063
-			public const int btn_radio_off_mtrl = 2131165283;
+			public const int btn_checkbox_unchecked_to_checked_mtrl_animation = 2131165283;
 			
 			// aapt resource value: 0x7F070064
-			public const int btn_radio_off_to_on_mtrl_animation = 2131165284;
+			public const int btn_radio_off_mtrl = 2131165284;
 			
 			// aapt resource value: 0x7F070065
-			public const int btn_radio_on_mtrl = 2131165285;
+			public const int btn_radio_off_to_on_mtrl_animation = 2131165285;
 			
 			// aapt resource value: 0x7F070066
-			public const int btn_radio_on_to_off_mtrl_animation = 2131165286;
+			public const int btn_radio_on_mtrl = 2131165286;
 			
 			// aapt resource value: 0x7F070067
-			public const int design_bottom_navigation_item_background = 2131165287;
+			public const int btn_radio_on_to_off_mtrl_animation = 2131165287;
 			
 			// aapt resource value: 0x7F070068
-			public const int design_fab_background = 2131165288;
+			public const int design_bottom_navigation_item_background = 2131165288;
 			
 			// aapt resource value: 0x7F070069
-			public const int design_ic_visibility = 2131165289;
+			public const int design_fab_background = 2131165289;
 			
 			// aapt resource value: 0x7F07006A
-			public const int design_ic_visibility_off = 2131165290;
+			public const int design_ic_visibility = 2131165290;
 			
 			// aapt resource value: 0x7F07006B
-			public const int design_password_eye = 2131165291;
+			public const int design_ic_visibility_off = 2131165291;
 			
 			// aapt resource value: 0x7F07006C
-			public const int design_snackbar_background = 2131165292;
-			
-			// aapt resource value: 0x7F070074
-			public const int icon = 2131165300;
+			public const int design_password_eye = 2131165292;
 			
 			// aapt resource value: 0x7F07006D
-			public const int ic_arrow_down_24dp = 2131165293;
-			
-			// aapt resource value: 0x7F07006E
-			public const int ic_errorstatus = 2131165294;
-			
-			// aapt resource value: 0x7F07006F
-			public const int ic_mtrl_checked_circle = 2131165295;
-			
-			// aapt resource value: 0x7F070070
-			public const int ic_mtrl_chip_checked_black = 2131165296;
-			
-			// aapt resource value: 0x7F070071
-			public const int ic_mtrl_chip_checked_circle = 2131165297;
-			
-			// aapt resource value: 0x7F070072
-			public const int ic_mtrl_chip_close_circle = 2131165298;
-			
-			// aapt resource value: 0x7F070073
-			public const int ic_successstatus = 2131165299;
-			
-			// aapt resource value: 0x7F070075
-			public const int material_ic_calendar_black_24dp = 2131165301;
+			public const int design_snackbar_background = 2131165293;
 			
 			// aapt resource value: 0x7F070076
-			public const int material_ic_clear_black_24dp = 2131165302;
+			public const int icon = 2131165302;
+			
+			// aapt resource value: 0x7F07006E
+			public const int ic_arrow_down_24dp = 2131165294;
+			
+			// aapt resource value: 0x7F07006F
+			public const int ic_errorstatus = 2131165295;
+			
+			// aapt resource value: 0x7F070070
+			public const int ic_mtrl_checked_circle = 2131165296;
+			
+			// aapt resource value: 0x7F070071
+			public const int ic_mtrl_chip_checked_black = 2131165297;
+			
+			// aapt resource value: 0x7F070072
+			public const int ic_mtrl_chip_checked_circle = 2131165298;
+			
+			// aapt resource value: 0x7F070073
+			public const int ic_mtrl_chip_close_circle = 2131165299;
+			
+			// aapt resource value: 0x7F070074
+			public const int ic_spotlight_arc = 2131165300;
+			
+			// aapt resource value: 0x7F070075
+			public const int ic_successstatus = 2131165301;
 			
 			// aapt resource value: 0x7F070077
-			public const int material_ic_edit_black_24dp = 2131165303;
+			public const int material_ic_calendar_black_24dp = 2131165303;
 			
 			// aapt resource value: 0x7F070078
-			public const int material_ic_keyboard_arrow_left_black_24dp = 2131165304;
+			public const int material_ic_clear_black_24dp = 2131165304;
 			
 			// aapt resource value: 0x7F070079
-			public const int material_ic_keyboard_arrow_right_black_24dp = 2131165305;
+			public const int material_ic_edit_black_24dp = 2131165305;
 			
 			// aapt resource value: 0x7F07007A
-			public const int material_ic_menu_arrow_down_black_24dp = 2131165306;
+			public const int material_ic_keyboard_arrow_left_black_24dp = 2131165306;
 			
 			// aapt resource value: 0x7F07007B
-			public const int material_ic_menu_arrow_up_black_24dp = 2131165307;
+			public const int material_ic_keyboard_arrow_right_black_24dp = 2131165307;
 			
 			// aapt resource value: 0x7F07007C
-			public const int mtrl_dialog_background = 2131165308;
+			public const int material_ic_menu_arrow_down_black_24dp = 2131165308;
 			
 			// aapt resource value: 0x7F07007D
-			public const int mtrl_dropdown_arrow = 2131165309;
+			public const int material_ic_menu_arrow_up_black_24dp = 2131165309;
 			
 			// aapt resource value: 0x7F07007E
-			public const int mtrl_ic_arrow_drop_down = 2131165310;
+			public const int mtrl_dialog_background = 2131165310;
 			
 			// aapt resource value: 0x7F07007F
-			public const int mtrl_ic_arrow_drop_up = 2131165311;
+			public const int mtrl_dropdown_arrow = 2131165311;
 			
 			// aapt resource value: 0x7F070080
-			public const int mtrl_ic_cancel = 2131165312;
+			public const int mtrl_ic_arrow_drop_down = 2131165312;
 			
 			// aapt resource value: 0x7F070081
-			public const int mtrl_ic_error = 2131165313;
+			public const int mtrl_ic_arrow_drop_up = 2131165313;
 			
 			// aapt resource value: 0x7F070082
-			public const int mtrl_popupmenu_background = 2131165314;
+			public const int mtrl_ic_cancel = 2131165314;
 			
 			// aapt resource value: 0x7F070083
-			public const int mtrl_popupmenu_background_dark = 2131165315;
+			public const int mtrl_ic_error = 2131165315;
 			
 			// aapt resource value: 0x7F070084
-			public const int mtrl_tabs_default_indicator = 2131165316;
+			public const int mtrl_popupmenu_background = 2131165316;
 			
 			// aapt resource value: 0x7F070085
-			public const int navigation_empty_icon = 2131165317;
+			public const int mtrl_popupmenu_background_dark = 2131165317;
 			
 			// aapt resource value: 0x7F070086
-			public const int notification_action_background = 2131165318;
+			public const int mtrl_tabs_default_indicator = 2131165318;
 			
 			// aapt resource value: 0x7F070087
-			public const int notification_bg = 2131165319;
+			public const int navigation_empty_icon = 2131165319;
 			
 			// aapt resource value: 0x7F070088
-			public const int notification_bg_low = 2131165320;
+			public const int notification_action_background = 2131165320;
 			
 			// aapt resource value: 0x7F070089
-			public const int notification_bg_low_normal = 2131165321;
+			public const int notification_bg = 2131165321;
 			
 			// aapt resource value: 0x7F07008A
-			public const int notification_bg_low_pressed = 2131165322;
+			public const int notification_bg_low = 2131165322;
 			
 			// aapt resource value: 0x7F07008B
-			public const int notification_bg_normal = 2131165323;
+			public const int notification_bg_low_normal = 2131165323;
 			
 			// aapt resource value: 0x7F07008C
-			public const int notification_bg_normal_pressed = 2131165324;
+			public const int notification_bg_low_pressed = 2131165324;
 			
 			// aapt resource value: 0x7F07008D
-			public const int notification_icon_background = 2131165325;
+			public const int notification_bg_normal = 2131165325;
 			
 			// aapt resource value: 0x7F07008E
-			public const int notification_template_icon_bg = 2131165326;
+			public const int notification_bg_normal_pressed = 2131165326;
 			
 			// aapt resource value: 0x7F07008F
-			public const int notification_template_icon_low_bg = 2131165327;
+			public const int notification_icon_background = 2131165327;
 			
 			// aapt resource value: 0x7F070090
-			public const int notification_tile_bg = 2131165328;
+			public const int notification_template_icon_bg = 2131165328;
 			
 			// aapt resource value: 0x7F070091
-			public const int notify_panel_notification_icon_bg = 2131165329;
+			public const int notification_template_icon_low_bg = 2131165329;
 			
 			// aapt resource value: 0x7F070092
-			public const int preference_list_divider_material = 2131165330;
+			public const int notification_tile_bg = 2131165330;
 			
 			// aapt resource value: 0x7F070093
-			public const int roundedbg = 2131165331;
+			public const int notify_panel_notification_icon_bg = 2131165331;
 			
 			// aapt resource value: 0x7F070094
-			public const int roundedbgdark = 2131165332;
+			public const int preference_list_divider_material = 2131165332;
 			
 			// aapt resource value: 0x7F070095
-			public const int test_custom_background = 2131165333;
+			public const int roundedbg = 2131165333;
 			
 			// aapt resource value: 0x7F070096
-			public const int tooltip_arrow_down = 2131165334;
+			public const int roundedbgdark = 2131165334;
 			
 			// aapt resource value: 0x7F070097
-			public const int tooltip_arrow_down_left = 2131165335;
+			public const int test_custom_background = 2131165335;
 			
 			// aapt resource value: 0x7F070098
-			public const int tooltip_arrow_down_right = 2131165336;
+			public const int tooltip_arrow_down = 2131165336;
 			
 			// aapt resource value: 0x7F070099
-			public const int tooltip_arrow_left = 2131165337;
+			public const int tooltip_arrow_down_left = 2131165337;
 			
 			// aapt resource value: 0x7F07009A
-			public const int tooltip_arrow_right = 2131165338;
+			public const int tooltip_arrow_down_right = 2131165338;
 			
 			// aapt resource value: 0x7F07009B
-			public const int tooltip_arrow_up = 2131165339;
+			public const int tooltip_arrow_left = 2131165339;
 			
 			// aapt resource value: 0x7F07009C
-			public const int tooltip_arrow_up_left = 2131165340;
+			public const int tooltip_arrow_right = 2131165340;
 			
 			// aapt resource value: 0x7F07009D
-			public const int tooltip_arrow_up_right = 2131165341;
+			public const int tooltip_arrow_up = 2131165341;
 			
 			// aapt resource value: 0x7F07009E
-			public const int tooltip_frame_dark = 2131165342;
+			public const int tooltip_arrow_up_left = 2131165342;
 			
 			// aapt resource value: 0x7F07009F
-			public const int tooltip_frame_light = 2131165343;
+			public const int tooltip_arrow_up_right = 2131165343;
 			
 			// aapt resource value: 0x7F0700A0
-			public const int tooltip_no_arrow = 2131165344;
+			public const int tooltip_frame_dark = 2131165344;
+			
+			// aapt resource value: 0x7F0700A1
+			public const int tooltip_frame_light = 2131165345;
+			
+			// aapt resource value: 0x7F0700A2
+			public const int tooltip_no_arrow = 2131165346;
 			
 			static Drawable()
 			{
@@ -19238,224 +20742,227 @@ namespace CustomRenderer.Droid
 			// aapt resource value: 0x7F0D001A
 			public const int abc_toolbar_collapse_description = 2131558426;
 			
-			// aapt resource value: 0x7F0D001B
-			public const int appbar_scrolling_view_behavior = 2131558427;
-			
 			// aapt resource value: 0x7F0D001C
-			public const int bottom_sheet_behavior = 2131558428;
+			public const int appbar_scrolling_view_behavior = 2131558428;
+			
+			// aapt resource value: 0x7F0D001B
+			public const int app_name = 2131558427;
 			
 			// aapt resource value: 0x7F0D001D
-			public const int character_counter_content_description = 2131558429;
+			public const int bottom_sheet_behavior = 2131558429;
 			
 			// aapt resource value: 0x7F0D001E
-			public const int character_counter_overflowed_content_description = 2131558430;
+			public const int character_counter_content_description = 2131558430;
 			
 			// aapt resource value: 0x7F0D001F
-			public const int character_counter_pattern = 2131558431;
+			public const int character_counter_overflowed_content_description = 2131558431;
 			
 			// aapt resource value: 0x7F0D0020
-			public const int chip_text = 2131558432;
+			public const int character_counter_pattern = 2131558432;
 			
 			// aapt resource value: 0x7F0D0021
-			public const int clear_text_end_icon_content_description = 2131558433;
+			public const int chip_text = 2131558433;
 			
 			// aapt resource value: 0x7F0D0022
-			public const int copy = 2131558434;
+			public const int clear_text_end_icon_content_description = 2131558434;
 			
 			// aapt resource value: 0x7F0D0023
-			public const int copy_toast_msg = 2131558435;
+			public const int copy = 2131558435;
 			
 			// aapt resource value: 0x7F0D0024
-			public const int error_icon_content_description = 2131558436;
+			public const int copy_toast_msg = 2131558436;
 			
 			// aapt resource value: 0x7F0D0025
-			public const int expand_button_title = 2131558437;
+			public const int error_icon_content_description = 2131558437;
 			
 			// aapt resource value: 0x7F0D0026
-			public const int exposed_dropdown_menu_content_description = 2131558438;
+			public const int expand_button_title = 2131558438;
 			
 			// aapt resource value: 0x7F0D0027
-			public const int fab_transformation_scrim_behavior = 2131558439;
+			public const int exposed_dropdown_menu_content_description = 2131558439;
 			
 			// aapt resource value: 0x7F0D0028
-			public const int fab_transformation_sheet_behavior = 2131558440;
+			public const int fab_transformation_scrim_behavior = 2131558440;
 			
 			// aapt resource value: 0x7F0D0029
-			public const int fallback_menu_item_copy_link = 2131558441;
+			public const int fab_transformation_sheet_behavior = 2131558441;
 			
 			// aapt resource value: 0x7F0D002A
-			public const int fallback_menu_item_open_in_browser = 2131558442;
+			public const int fallback_menu_item_copy_link = 2131558442;
 			
 			// aapt resource value: 0x7F0D002B
-			public const int fallback_menu_item_share_link = 2131558443;
+			public const int fallback_menu_item_open_in_browser = 2131558443;
 			
 			// aapt resource value: 0x7F0D002C
-			public const int hide_bottom_view_on_scroll_behavior = 2131558444;
+			public const int fallback_menu_item_share_link = 2131558444;
 			
 			// aapt resource value: 0x7F0D002D
-			public const int icon_content_description = 2131558445;
+			public const int hide_bottom_view_on_scroll_behavior = 2131558445;
 			
 			// aapt resource value: 0x7F0D002E
-			public const int item_view_role_description = 2131558446;
+			public const int icon_content_description = 2131558446;
 			
 			// aapt resource value: 0x7F0D002F
-			public const int library_name = 2131558447;
+			public const int item_view_role_description = 2131558447;
 			
 			// aapt resource value: 0x7F0D0030
-			public const int material_slider_range_end = 2131558448;
+			public const int library_name = 2131558448;
 			
 			// aapt resource value: 0x7F0D0031
-			public const int material_slider_range_start = 2131558449;
+			public const int material_slider_range_end = 2131558449;
 			
 			// aapt resource value: 0x7F0D0032
-			public const int mtrl_badge_numberless_content_description = 2131558450;
+			public const int material_slider_range_start = 2131558450;
 			
 			// aapt resource value: 0x7F0D0033
-			public const int mtrl_chip_close_icon_content_description = 2131558451;
+			public const int mtrl_badge_numberless_content_description = 2131558451;
 			
 			// aapt resource value: 0x7F0D0034
-			public const int mtrl_exceed_max_badge_number_content_description = 2131558452;
+			public const int mtrl_chip_close_icon_content_description = 2131558452;
 			
 			// aapt resource value: 0x7F0D0035
-			public const int mtrl_exceed_max_badge_number_suffix = 2131558453;
+			public const int mtrl_exceed_max_badge_number_content_description = 2131558453;
 			
 			// aapt resource value: 0x7F0D0036
-			public const int mtrl_picker_a11y_next_month = 2131558454;
+			public const int mtrl_exceed_max_badge_number_suffix = 2131558454;
 			
 			// aapt resource value: 0x7F0D0037
-			public const int mtrl_picker_a11y_prev_month = 2131558455;
+			public const int mtrl_picker_a11y_next_month = 2131558455;
 			
 			// aapt resource value: 0x7F0D0038
-			public const int mtrl_picker_announce_current_selection = 2131558456;
+			public const int mtrl_picker_a11y_prev_month = 2131558456;
 			
 			// aapt resource value: 0x7F0D0039
-			public const int mtrl_picker_cancel = 2131558457;
+			public const int mtrl_picker_announce_current_selection = 2131558457;
 			
 			// aapt resource value: 0x7F0D003A
-			public const int mtrl_picker_confirm = 2131558458;
+			public const int mtrl_picker_cancel = 2131558458;
 			
 			// aapt resource value: 0x7F0D003B
-			public const int mtrl_picker_date_header_selected = 2131558459;
+			public const int mtrl_picker_confirm = 2131558459;
 			
 			// aapt resource value: 0x7F0D003C
-			public const int mtrl_picker_date_header_title = 2131558460;
+			public const int mtrl_picker_date_header_selected = 2131558460;
 			
 			// aapt resource value: 0x7F0D003D
-			public const int mtrl_picker_date_header_unselected = 2131558461;
+			public const int mtrl_picker_date_header_title = 2131558461;
 			
 			// aapt resource value: 0x7F0D003E
-			public const int mtrl_picker_day_of_week_column_header = 2131558462;
+			public const int mtrl_picker_date_header_unselected = 2131558462;
 			
 			// aapt resource value: 0x7F0D003F
-			public const int mtrl_picker_invalid_format = 2131558463;
+			public const int mtrl_picker_day_of_week_column_header = 2131558463;
 			
 			// aapt resource value: 0x7F0D0040
-			public const int mtrl_picker_invalid_format_example = 2131558464;
+			public const int mtrl_picker_invalid_format = 2131558464;
 			
 			// aapt resource value: 0x7F0D0041
-			public const int mtrl_picker_invalid_format_use = 2131558465;
+			public const int mtrl_picker_invalid_format_example = 2131558465;
 			
 			// aapt resource value: 0x7F0D0042
-			public const int mtrl_picker_invalid_range = 2131558466;
+			public const int mtrl_picker_invalid_format_use = 2131558466;
 			
 			// aapt resource value: 0x7F0D0043
-			public const int mtrl_picker_navigate_to_year_description = 2131558467;
+			public const int mtrl_picker_invalid_range = 2131558467;
 			
 			// aapt resource value: 0x7F0D0044
-			public const int mtrl_picker_out_of_range = 2131558468;
+			public const int mtrl_picker_navigate_to_year_description = 2131558468;
 			
 			// aapt resource value: 0x7F0D0045
-			public const int mtrl_picker_range_header_only_end_selected = 2131558469;
+			public const int mtrl_picker_out_of_range = 2131558469;
 			
 			// aapt resource value: 0x7F0D0046
-			public const int mtrl_picker_range_header_only_start_selected = 2131558470;
+			public const int mtrl_picker_range_header_only_end_selected = 2131558470;
 			
 			// aapt resource value: 0x7F0D0047
-			public const int mtrl_picker_range_header_selected = 2131558471;
+			public const int mtrl_picker_range_header_only_start_selected = 2131558471;
 			
 			// aapt resource value: 0x7F0D0048
-			public const int mtrl_picker_range_header_title = 2131558472;
+			public const int mtrl_picker_range_header_selected = 2131558472;
 			
 			// aapt resource value: 0x7F0D0049
-			public const int mtrl_picker_range_header_unselected = 2131558473;
+			public const int mtrl_picker_range_header_title = 2131558473;
 			
 			// aapt resource value: 0x7F0D004A
-			public const int mtrl_picker_save = 2131558474;
+			public const int mtrl_picker_range_header_unselected = 2131558474;
 			
 			// aapt resource value: 0x7F0D004B
-			public const int mtrl_picker_text_input_date_hint = 2131558475;
+			public const int mtrl_picker_save = 2131558475;
 			
 			// aapt resource value: 0x7F0D004C
-			public const int mtrl_picker_text_input_date_range_end_hint = 2131558476;
+			public const int mtrl_picker_text_input_date_hint = 2131558476;
 			
 			// aapt resource value: 0x7F0D004D
-			public const int mtrl_picker_text_input_date_range_start_hint = 2131558477;
+			public const int mtrl_picker_text_input_date_range_end_hint = 2131558477;
 			
 			// aapt resource value: 0x7F0D004E
-			public const int mtrl_picker_text_input_day_abbr = 2131558478;
+			public const int mtrl_picker_text_input_date_range_start_hint = 2131558478;
 			
 			// aapt resource value: 0x7F0D004F
-			public const int mtrl_picker_text_input_month_abbr = 2131558479;
+			public const int mtrl_picker_text_input_day_abbr = 2131558479;
 			
 			// aapt resource value: 0x7F0D0050
-			public const int mtrl_picker_text_input_year_abbr = 2131558480;
+			public const int mtrl_picker_text_input_month_abbr = 2131558480;
 			
 			// aapt resource value: 0x7F0D0051
-			public const int mtrl_picker_toggle_to_calendar_input_mode = 2131558481;
+			public const int mtrl_picker_text_input_year_abbr = 2131558481;
 			
 			// aapt resource value: 0x7F0D0052
-			public const int mtrl_picker_toggle_to_day_selection = 2131558482;
+			public const int mtrl_picker_toggle_to_calendar_input_mode = 2131558482;
 			
 			// aapt resource value: 0x7F0D0053
-			public const int mtrl_picker_toggle_to_text_input_mode = 2131558483;
+			public const int mtrl_picker_toggle_to_day_selection = 2131558483;
 			
 			// aapt resource value: 0x7F0D0054
-			public const int mtrl_picker_toggle_to_year_selection = 2131558484;
+			public const int mtrl_picker_toggle_to_text_input_mode = 2131558484;
 			
 			// aapt resource value: 0x7F0D0055
-			public const int nav_app_bar_navigate_up_description = 2131558485;
+			public const int mtrl_picker_toggle_to_year_selection = 2131558485;
 			
 			// aapt resource value: 0x7F0D0056
-			public const int nav_app_bar_open_drawer_description = 2131558486;
+			public const int nav_app_bar_navigate_up_description = 2131558486;
 			
 			// aapt resource value: 0x7F0D0057
-			public const int not_set = 2131558487;
+			public const int nav_app_bar_open_drawer_description = 2131558487;
 			
 			// aapt resource value: 0x7F0D0058
-			public const int overflow_tab_title = 2131558488;
+			public const int not_set = 2131558488;
 			
 			// aapt resource value: 0x7F0D0059
-			public const int password_toggle_content_description = 2131558489;
+			public const int overflow_tab_title = 2131558489;
 			
 			// aapt resource value: 0x7F0D005A
-			public const int path_password_eye = 2131558490;
+			public const int password_toggle_content_description = 2131558490;
 			
 			// aapt resource value: 0x7F0D005B
-			public const int path_password_eye_mask_strike_through = 2131558491;
+			public const int path_password_eye = 2131558491;
 			
 			// aapt resource value: 0x7F0D005C
-			public const int path_password_eye_mask_visible = 2131558492;
+			public const int path_password_eye_mask_strike_through = 2131558492;
 			
 			// aapt resource value: 0x7F0D005D
-			public const int path_password_strike_through = 2131558493;
+			public const int path_password_eye_mask_visible = 2131558493;
 			
 			// aapt resource value: 0x7F0D005E
-			public const int preference_copied = 2131558494;
+			public const int path_password_strike_through = 2131558494;
 			
 			// aapt resource value: 0x7F0D005F
-			public const int search_menu_title = 2131558495;
+			public const int preference_copied = 2131558495;
 			
 			// aapt resource value: 0x7F0D0060
-			public const int status_bar_notification_info_overflow = 2131558496;
+			public const int search_menu_title = 2131558496;
 			
 			// aapt resource value: 0x7F0D0061
-			public const int summary_collapsed_preference_list = 2131558497;
+			public const int status_bar_notification_info_overflow = 2131558497;
 			
 			// aapt resource value: 0x7F0D0062
-			public const int v7_preference_off = 2131558498;
+			public const int summary_collapsed_preference_list = 2131558498;
 			
 			// aapt resource value: 0x7F0D0063
-			public const int v7_preference_on = 2131558499;
+			public const int v7_preference_off = 2131558499;
+			
+			// aapt resource value: 0x7F0D0064
+			public const int v7_preference_on = 2131558500;
 			
 			static String()
 			{

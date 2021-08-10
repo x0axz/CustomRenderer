@@ -43,6 +43,9 @@
       <Version>1.0.7</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2083" />
+    <PackageReference Include="Android.Spotlight">
+      <Version>2019.11.14.1</Version>
+    </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -57,6 +60,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Control\SpotLightService.cs" />
     <Compile Include="Effects\TooltipEffect.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="NativeOverlayView.cs" />
