@@ -60,7 +60,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Control\SpotLightService.cs" />
+    <Compile Include="Control\SpotLightRenderer.cs" />
     <Compile Include="Effects\TooltipEffect.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="NativeOverlayView.cs" />
@@ -75,7 +75,9 @@
     <None Include="Properties\AndroidManifest.xml" />
     <None Include="Assets\AboutAssets.txt" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\SpotLight.xml" />
+  </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\icon.png" />
     <AndroidResource Include="Resources\drawable-hdpi\icon.png" />

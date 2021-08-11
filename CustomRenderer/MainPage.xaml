@@ -2,118 +2,11 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="CustomRenderer.MainPage"
-             Padding="0,20,0,0"
+             Padding="0,0,0,0"
              Title="Main Page">
     <ContentPage.Content>
         <StackLayout>
 
-            <StackLayout VerticalOptions="Start">
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="100" />
-                    </Grid.RowDefinitions>
-
-                    <Grid Grid.Row="0">
-                        <Button x:Name="FirstButton"
-                                Text="First"
-                                FontSize="15"
-                                TextColor="#FFFFFF"
-                                BackgroundColor="LightSalmon"
-                                CornerRadius="05"
-                                VerticalOptions="CenterAndExpand"
-                                HorizontalOptions="StartAndExpand"
-                                WidthRequest="100"
-                                HeightRequest="50"
-                                MinimumHeightRequest="100"
-                                MinimumWidthRequest="50"
-                                Margin="10,0,0,0" />
-
-                        <Button x:Name="SecondButton"
-                                Text="Second"
-                                FontSize="15"
-                                TextColor="#FFFFFF"
-                                BackgroundColor="LightCoral"
-                                CornerRadius="05"
-                                VerticalOptions="CenterAndExpand"
-                                HorizontalOptions="EndAndExpand"
-                                WidthRequest="100"
-                                HeightRequest="50"
-                                MinimumHeightRequest="100"
-                                MinimumWidthRequest="50"
-                                Margin="0,0,10,0" />
-                    </Grid>
-                </Grid>
-            </StackLayout>
-
-            <StackLayout HorizontalOptions="CenterAndExpand"
-                         VerticalOptions="CenterAndExpand">
-
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="300" />
-                    </Grid.RowDefinitions>
-
-                    <Grid Grid.Row="0">
-                        <Grid>
-                            <Grid.RowDefinitions>
-                                <RowDefinition Height="*" />
-                            </Grid.RowDefinitions>
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="*" />
-                                <ColumnDefinition Width="300" />
-                                <ColumnDefinition Width="*" />
-                            </Grid.ColumnDefinitions>
-
-                            <!--
-                            <local:CameraPreview Grid.Column="1"
-                                                 x:Name="CameraPreview"
-                                                 Camera="Front"
-                                                 HorizontalOptions="FillAndExpand"
-                                                 VerticalOptions="FillAndExpand" />
-                            <local:OverlayView Grid.Column="1"
-                                               x:Name="overlayView"
-                                               OverlayBackgroundColor="Transparent"
-                                               OverlayOpacity="0.5"
-                                               Shape="Oval"
-                                               ShapeScale="0.6"
-                                               HorizontalOptions="FillAndExpand"
-                                               VerticalOptions="FillAndExpand" />
-                            -->
-
-                            <Grid Grid.Column="1"
-                                  BackgroundColor="#222222"
-                                  HorizontalOptions="CenterAndExpand"
-                                  VerticalOptions="FillAndExpand"
-                                  HeightRequest="300"
-                                  WidthRequest="300" />
-                        </Grid>
-                    </Grid>
-                </Grid>
-            </StackLayout>
-
-            <StackLayout VerticalOptions="EndAndExpand">
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="Auto" />
-                    </Grid.RowDefinitions>
-
-                    <Grid Grid.Row="0">
-                        <Button x:Name="ThirdButton"
-                                Text="Third"
-                                FontSize="15"
-                                TextColor="#FFFFFF"
-                                BackgroundColor="LightSeaGreen"
-                                CornerRadius="05"
-                                HorizontalOptions="CenterAndExpand"
-                                VerticalOptions="CenterAndExpand"
-                                WidthRequest="100"
-                                HeightRequest="50"
-                                MinimumHeightRequest="100"
-                                MinimumWidthRequest="50"
-                                Margin="0,0,10,30" />
-                    </Grid>
-                </Grid>
-            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
